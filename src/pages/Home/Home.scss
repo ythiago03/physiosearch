@@ -1,16 +1,25 @@
-main{background-color: red;
+.home_container{
+  background-color: black;
   width: 100%;
+  min-height: 100vh;
 
-  .img-frame{
-    background-color: blue;
-    max-width: 500px;
+  .home_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 100%;
     margin: 0 auto;
     position: relative;
 
-    img{
-      width: 100%;
+    // .transform-component-module_content__FBWxo{
+    //   &:hover img{
+    //     filter: sepia(100%) saturate(500%) hue-rotate(180deg) ;       
+    //   }
+    // }
+
+    .skeleton-full{
+      max-width: 650px;
+      width: 90%;
     }
 
     .item-base{
@@ -29,18 +38,54 @@ main{background-color: red;
     .item1{
       @extend .item-base;
       bottom: 360px;
-      left: 270px;
+      left: 320px;
     }
 
     .item2{
       @extend .item-base;
-      bottom: 220px;
-      left: 210px;
+      bottom: 190px;
+      left: 250px;
+    }
+  }
+
+  .controls_wrapper{
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+  
+    .button-control {
+      padding: 1.3rem 2rem;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 2.5px;
+      font-weight: 500;
+      color: #000;
+      background-color: #fff;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.226);
+      transition: all 0.3s ease 0s;
+      cursor: pointer;
+      outline: none;
+    
+      &:hover {
+          background-color: red;
+          box-shadow: 0px 15px 20px  rgb(64, 14, 14);
+          color: #fff;
+          transform: translateY(-7px);
+      }
+    
+      &:active {
+          transform: translateY(-1px);
+       }
     }
   }
 }
 
-.teste{
-  margin: 1rem;
-  background-color: yellow;
-}
+
+
+
+
