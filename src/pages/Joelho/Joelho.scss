@@ -1,0 +1,161 @@
+.joelho_container{
+  background-color: red;
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+
+
+  .a{
+    flex: 1;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 1rem;
+
+    h1{
+      font-size: 4rem;
+      text-transform: uppercase;
+      letter-spacing: 2.5px;
+      font-weight: 500;
+    }
+
+    p{
+      max-width: 90%;
+    }
+
+    .learn-more {
+      width: 12rem;
+      height: auto;
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      outline: none;
+      border: 0;
+      vertical-align: middle;
+      text-decoration: none;
+      background: transparent;
+      padding: 0;
+      font-size: inherit;
+      font-family: inherit;
+      
+       
+      &:hover{
+        .button-text {
+          color: black;
+        }
+    
+        .circle {
+          width: 100%;
+          .arrow {
+            background: black;
+            transform: translate(1rem, 0);
+          }
+        }
+      } 
+    
+      .button-text {
+        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 0.75rem 0;
+        margin: 0 0 0 1.85rem;
+        color: white;
+        font-weight: 700;
+        line-height: 1.6;
+        text-align: center;
+        text-transform: uppercase;
+      }
+    
+      .circle {
+        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+        position: relative;
+        display: block;
+        margin: 0;
+        width: 3rem;
+        height: 3rem;
+        background: white;
+        border-radius: 1.625rem;
+    
+        .icon {
+          transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          background: black;
+        }
+    
+        .arrow {
+          transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+          left: 0.625rem;
+          width: 1.125rem;
+          height: 0.125rem;
+          background: none;
+    
+          &::before {
+            position: absolute;
+            content: "";
+            top: -0.29rem;
+            right: 0.0625rem;
+            width: 0.625rem;
+            height: 0.625rem;
+            border-top: 0.125rem solid black;
+            border-right: 0.125rem solid black;
+            transform: rotate(45deg);
+          }
+        }
+      }
+    }
+
+    .btn-back {
+      display: flex;
+      height: 3em;
+      width: 100px;
+      align-items: center;
+      margin: 1rem;
+      align-self: flex-start;
+      justify-content: center;
+      background-color: #eeeeee4b;
+      color: black;
+      border-radius: 3px;
+      letter-spacing: 1px;
+      transition: all 0.2s linear;
+      cursor: pointer;
+      border: none;
+      background: #fff;
+      
+      &:hover {
+        box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+        transform: translateY(-2px);
+        
+        svg{
+          font-size: 1.2em;
+          transform: translateX(-5px);
+        }
+      }
+    
+      svg {
+        margin-right: 5px;
+        margin-left: 5px;
+        font-size: 20px;
+        transition: all 0.4s ease-in;
+      }
+    }
+  }
+
+  .b{
+    flex: 1;
+    flex-grow: .5;
+    background-image: url('https://visionmedicavirtual.com/en/system/files/styles/full_image/private/b_jr.1109.003.09.jpg?itok=d8D07oCb');
+    //background-position: ;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: contain;
+  }
+}
+ 
