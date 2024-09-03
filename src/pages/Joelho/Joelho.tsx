@@ -28,7 +28,7 @@ function Joelho() {
           <span className="circle" aria-hidden="true">
             <span className="icon arrow" />
           </span>
-          <a className="button-text" href="https://labanatoin.ufpel.edu.br/trabalho_fisiotanatomoclinico_2020_2_prof.mateus/Joelho.pdf" target='_blank'>Saiba mais</a>
+          <a className="button-text" href="https://youtu.be/FdLtDHgo7Zs?t=5" target='_blank'>Saiba mais</a>
         </button>
       </section>
       <section className='b'></section>
