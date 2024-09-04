@@ -6,14 +6,10 @@
 
   
   .list {
+    align-self: flex-start;
     margin: 1rem;
     list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    row-gap: 0.5rem;
-
+    
     .icon-content {
       margin: 0 10px;
       position: relative;
@@ -87,50 +83,12 @@
     }
   }
 
-  .home_wrapper{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
-
-    .skeleton-full{
-      max-width: 650px;
-      width: 90%;
-    }
-
-    .joelho{
-      position: absolute;
-      width: 23px;
-      height: 20px;
-      bottom: 364px;
-      border-radius: 10px;
-      left: 318px;
-
-      &:hover{
-        .joelho-patela{
-          transition: transform 300ms ease-in-out;
-          transform: scale(1.1);
-          filter: sepia(100%) saturate(500%) hue-rotate(180deg);
-        }
-      }
-
-      .joelho-patela{
-        position: absolute;
-        top: -4px;
-        left: -4px;
-        min-width: 30px;
-        transition: transform 300ms ease-in-out;
-      }
-    }
-  }
-
   .controls_wrapper{
     max-width: 500px;
+    max-height: 100px;
     width: 100%;
     display: flex;
-    margin:1rem 2.5rem;
+    margin: 1rem 2.5rem;
     gap: 1rem;
     flex-wrap: wrap;
     padding: 0.5rem;
@@ -162,5 +120,59 @@
        }
     }
   }
+
+  .home_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+
+    .replace{
+      margin: 0 auto;
+      
+      .material-symbols-outlined{
+        color: white;
+        font-size: 2.5rem;
+      }
+    }
+
+    .transform-component-module_wrapper__SPB86{
+      margin: 0 auto;
+      position: relative;
+    }
+
+    .skeleton-full{
+      margin: 0 auto;
+      max-width: 650px;
+      width: 90%;
+    }
+
+    .joelho{
+      position: absolute;
+      width: 23px;
+      height: 20px;
+      bottom: 364px;
+      border-radius: 10px;
+      left: 352px;
+
+      &:hover{
+        .joelho-patela{
+          transition: transform 300ms ease-in-out;
+          transform: scale(1.1);
+          filter: sepia(100%) saturate(500%) hue-rotate(180deg);
+        }
+      }
+
+      .joelho-patela{
+        position: absolute;
+        top: -4px;
+        left: -4px;
+        min-width: 30px;
+        transition: transform 300ms ease-in-out;
+      }
+    }
+  }
+
+  
 }
 
