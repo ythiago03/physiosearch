@@ -38,3 +38,23 @@ button {
 ul{
   list-style-type: none;
 }
+
+@mixin slide{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+.slide-in{
+  @include slide;
+  transform-origin: bottom;
+}
+
+
+.slide-out{
+  @include slide;
+  transform-origin: top;
+}
