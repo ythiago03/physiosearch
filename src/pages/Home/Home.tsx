@@ -38,7 +38,7 @@ const Home = () => {
     <main className='home_container'>
       <ul className="list">
         <li className="icon-content">
-          <button onClick={() =>  setSeeBones(!seeBones)}>
+          <button>
           <div className="filled"></div>
           <svg 
               viewBox="0 0 32 32"
@@ -55,7 +55,7 @@ const Home = () => {
           <div className="tooltip">Ver Ossos</div>
         </li>
         <li className="icon-content">
-          <button onClick={() =>  setSeeMuscle(!seeMuscle)}>
+          <button>
             <div className="filled"></div>
             <svg 
               className="bi bi-github"
@@ -73,7 +73,7 @@ const Home = () => {
           <div className="tooltip">Ver Músculos</div>
         </li>
         <li className="icon-content">
-          <button onClick={() =>  setLigamento(!seeLigamento)}>
+          <button>
             <div className="filled"></div>
             <svg 
               className="bi bi-github"
