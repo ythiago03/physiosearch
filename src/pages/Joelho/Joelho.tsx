@@ -1,12 +1,35 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import './Joelho.scss';
 import { Link } from 'react-router-dom';
+import YouTube from 'react-youtube';
 
 function Joelho() {
+  const [player, setPlayer] = useState<any>();
+
+  const onPlayerReady = (event: any) => {
+    const player = event.target;
+    setPlayer(player);
+    player.playVideo();
+  };
+
+  const seekToTime = (seconds: number) => {
+    if(player){
+      player.seekTo(seconds)
+    }
+  }
+
+  const options = {
+    height: "390",
+    width: "640",
+    playerVars: {
+      autoplay: 1,
+    },
+  };
+
   return (
     <main className='joelho_container'>
-      <section className='a'>
+     <section className='a'>
       <Link to={'/'} className='btn-back'>
         <svg
           height="16"
@@ -22,7 +45,7 @@ function Joelho() {
         <h1>Joelho</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet rem omnis hic et fugiat! Sequi minima vel numquam expedita, aliquid nisi excepturi sapiente id quae, nesciunt placeat optio tempore ea? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae neque ipsam, necessitatibus minima placeat exercitationem accusantium officiis numquam quas dicta eligendi, qui vitae consectetur earum possimus excepturi nam. Asperiores, ipsa.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet rem omnis hic et fugiat! Sequi minima vel numquam expedita, aliquid nisi excepturi sapiente id quae, nesciunt placeat optio tempore ea? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae neque ipsam, necessitatibus minima placeat exercitationem accusantium officiis numquam quas dicta eligendi, qui vitae consectetur earum possimus excepturi nam. Asperiores, ipsa.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet rem omnis hic et fugiat! Sequi minima vel numquam expedita, aliquid nisi excepturi sapiente id quae, nesciunt placeat optio tempore ea? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae neque ipsam, necessitatibus minima placeat exercitationem accusantium officiis numquam quas dicta eligendi, qui vitae consectetur earum possimus excepturi nam. Asperiores, ipsa.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet rem omnis hic et fugiat! Sequi minima vel numquam expedita, aliquid nisi excepturi sapiente id quae, nesciunt placeat optio tempore ea? <span onClick={() => seekToTime(210)}>Lorem ipsum dolor,</span> sit amet consectetur adipisicing elit. Quae neque ipsam, necessitatibus minima placeat exercitationem accusantium officiis numquam quas dicta eligendi, qui vitae consectetur earum possimus excepturi nam. Asperiores, ipsa.</p>
 
         <button className="learn-more">
           <span className="circle" aria-hidden="true">
@@ -31,7 +54,13 @@ function Joelho() {
           <a className="button-text" href="https://youtu.be/FdLtDHgo7Zs?t=5" target='_blank'>Saiba mais</a>
         </button>
       </section>
-      <section className='b'></section>
+      <section className='b'>
+        <YouTube
+          videoId="wszljuxRKC8"
+          opts={options}
+          onReady={onPlayerReady}
+        />
+      </section>
     </main>
   )
 }

@@ -1,9 +1,7 @@
 .joelho_container{
-  background-color: red;
   min-width: 100%;
   min-height: 100vh;
   display: flex;
-
 
   .a{
     flex: 1;
@@ -23,6 +21,11 @@
 
     p{
       max-width: 90%;
+
+      span{
+        font-weight: 700;
+        cursor: pointer;
+      }
     }
 
     .learn-more {
@@ -151,11 +154,11 @@
   .b{
     flex: 1;
     flex-grow: .5;
-    background-image: url('https://visionmedicavirtual.com/en/system/files/styles/full_image/private/b_jr.1109.003.09.jpg?itok=d8D07oCb');
-    //background-position: ;
-    background-repeat: no-repeat;
     background-color: black;
-    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 }
  

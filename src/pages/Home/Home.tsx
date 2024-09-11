@@ -93,8 +93,8 @@ const Home = () => {
       </ul>
       <div className='controls_wrapper'>
           <button className='button-control' onClick={zoomToJoelho}>Joelho</button>
-          <button className='button-control' onClick={zoomOut}>Zoom out -</button>
           <button className='button-control' onClick={zoomIn}>Zoom in +</button>
+          <button className='button-control' onClick={zoomOut}>Zoom out -</button>
           <button className='button-control' onClick={resetZoom}>Resetar</button>
           
       </div> 
