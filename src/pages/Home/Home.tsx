@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import { TransformWrapper, TransformComponent, ReactZoomPanPinchRef } from "react-zoom-pan-pinch";
 import './Home.scss';
 
+import skeletonPng from '../../assets/skeleton.png';
+import joelhoPng from '../../assets/joelho.png';
+
 const Home = () => {
   const transformComponentRef = useRef<ReactZoomPanPinchRef | null>(null);
 
@@ -107,9 +110,9 @@ const Home = () => {
           ref={transformComponentRef}
         >
           <TransformComponent>
-            <img className='skeleton-full' src="src/assets/skeleton.png" alt="Esqueleto do corpo humano" />
+            <img className='skeleton-full' src={skeletonPng} alt="Esqueleto do corpo humano" />
             <Link id='joelho' className='joelho' to="/rota1">
-              <img className='joelho-patela' src="src/assets/patela.png" alt="" />
+              <img className='joelho-patela' src={joelhoPng} alt="" />
             </Link>
 
           </TransformComponent>
