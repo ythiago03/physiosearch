@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-
+import { useState } from 'react'
 import './Joelho.scss';
 import { Link } from 'react-router-dom';
 import YouTube from 'react-youtube';
