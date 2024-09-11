@@ -1,7 +1,7 @@
 import { useRef } from 'react'
-import './home.scss';
 import { Link } from 'react-router-dom';
 import { TransformWrapper, TransformComponent, ReactZoomPanPinchRef } from "react-zoom-pan-pinch";
+import './Home.scss';
 
 const Home = () => {
   const transformComponentRef = useRef<ReactZoomPanPinchRef | null>(null);
