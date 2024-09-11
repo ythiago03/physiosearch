@@ -4,7 +4,7 @@ import { TransformWrapper, TransformComponent, ReactZoomPanPinchRef } from "reac
 import './Home.scss';
 
 import skeletonPng from '../../assets/skeleton.png';
-import joelhoPng from '../../assets/joelho.png';
+import joelhoPng from '../../assets/patela.png';
 
 const Home = () => {
   const transformComponentRef = useRef<ReactZoomPanPinchRef | null>(null);
