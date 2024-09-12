@@ -2,9 +2,12 @@
 
 .home_container{
   background-color: black;
-  width: 100%;
   min-height: 100vh;
-  display: flex;
+  @include center-content;
+  flex-direction: column;
+  padding: 20px;
+  margin: 0 auto;
+  width: 100%;
   
   .list {
     margin: 1rem;
@@ -87,8 +90,7 @@
   }
 
   .controls_wrapper{
-    max-width: 500px;
-    max-height: 100px;
+    height: 10px;
     width: 100%;
     display: flex;
     margin: 1rem 2.5rem;
@@ -97,6 +99,7 @@
     padding: 0.5rem;
   
     .button-control {
+      //max-height: 30xp;
       padding: 1.3rem 2rem;
       font-size: 12px;
       text-transform: uppercase;
@@ -129,6 +132,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 1rem;
+    margin: 0 auto;
 
     .replace{
       margin: 0 auto;
@@ -146,17 +150,30 @@
 
     .skeleton-full{
       margin: 0 auto;
-      max-width: 650px;
-      width: 90%;
+      max-width:  650px;
+      width: 100%;
+
+      @media (max-width: 690px) {
+        max-width:  350px;
+        width: 100%;
+      }
     }
 
     .joelho{
       position: absolute;
       width: 23px;
       height: 20px;
-      bottom: 364px;
+      bottom: 406px;
       border-radius: 10px;
-      left: 352px;
+      left: 355px;
+
+      @media (max-width: 690px) {
+        width: 13px;
+        height: 13px;
+        bottom: 218px;
+        border-radius: 10px;
+        left: 190px;
+      }
 
       &:hover{
         .joelho-patela{
@@ -172,6 +189,12 @@
         left: -4px;
         min-width: 30px;
         transition: transform 300ms ease-in-out;
+
+        @media (max-width: 690px) {
+          min-width: 17px;
+          top: -1px;
+          left: -2px;
+        }
       }
     }
   }
@@ -179,3 +202,8 @@
   
 }
 
+
+
+.teste{
+  display: flex;
+}
