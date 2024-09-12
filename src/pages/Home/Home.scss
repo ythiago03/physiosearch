@@ -90,16 +90,19 @@
   }
 
   .controls_wrapper{
-    height: 10px;
-    width: 100%;
     display: flex;
     margin: 1rem 2.5rem;
     gap: 1rem;
     flex-wrap: wrap;
     padding: 0.5rem;
+
+    @media (max-width: 650px) {
+      margin: 1rem;
+    }
   
     .button-control {
-      //max-height: 30xp;
+      @include center-content;
+      max-height: 1.3rem;
       padding: 1.3rem 2rem;
       font-size: 12px;
       text-transform: uppercase;
@@ -206,4 +209,5 @@
 
 .teste{
   display: flex;
+  flex-wrap: wrap;
 }
