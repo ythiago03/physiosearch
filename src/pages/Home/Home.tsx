@@ -2,6 +2,8 @@ import { useRef } from 'react'
 import { Link } from 'react-router-dom';
 import { TransformWrapper, TransformComponent, ReactZoomPanPinchRef } from "react-zoom-pan-pinch";
 import './Home.scss';
+import { Button } from "@/components/ui/button"
+
 
 import skeletonPng from '../../assets/skeleton.png';
 import joelhoPng from '../../assets/joelho.png';
@@ -95,9 +97,10 @@ const Home = () => {
         </li>
       </ul>
       <div className='controls_wrapper'>
-          <button className='button-control' onClick={zoomToJoelho}>Joelho</button>
+          <button className='bg-[#50d71e] button-control' onClick={zoomToJoelho}>Joelho</button>
           <button className='button-control' onClick={zoomIn}>Zoom in +</button>
           <button className='button-control' onClick={zoomOut}>Zoom out -</button>
+          <Button>Click me</Button>
           <button className='button-control' onClick={resetZoom}>Resetar</button>
           
       </div> 
