@@ -63,6 +63,56 @@
 
   .main_container{
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    .controls-wrapper{
+      display: flex;
+      gap: 1rem;
+    }
+
+    .material-symbols-outlined{
+      cursor: pointer;
+    }
+
+    .transform-component-module_wrapper__SPB86{
+      margin: 0 auto;
+      position: relative;
+      min-width: 90%;
+    
+      .skeleton-full{
+        margin: 0 auto;
+        max-width: 650px;
+        width: 55%;
+      }
+    
+      .joelho{
+        position: absolute;
+        width: 23px;
+        height: 20px;
+        bottom: 224px;
+        border-radius: 10px;
+        left: 324px;
+      
+        &:hover{
+          .joelho-patela{
+            transition: transform 300ms ease-in-out;
+            transform: scale(1.02);
+            filter: sepia(100%) saturate(500%) hue-rotate(180deg);
+          }
+        }
+      
+        .joelho-patela{
+          position: absolute;
+          top: -4px;
+          left: -4px;
+          min-width: 28px;
+          transition: transform 300ms ease-in-out;
+        }
+      }
+    }
   }
 }
 
