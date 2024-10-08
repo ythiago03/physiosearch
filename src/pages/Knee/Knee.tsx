@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import './Route1.scss'
+import './Knee.scss'
 import { Separator } from "@/components/ui/separator"
 import { Link } from 'react-router-dom'
 import YouTube from 'react-youtube';
 
-const Route1 = () => {
+const Knee = () => {
   const [player, setPlayer] = useState<any>();
 
   const onPlayerReady = (event: any) => {
@@ -96,4 +96,4 @@ const Route1 = () => {
   )
 }
 
-export default Route1
+export default Knee

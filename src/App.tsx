@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Skeleton from './pages/Skeleton/Skeleton';
 import { ThemeProvider } from './components/Theme/theme-provider';
 import Navbar from './components/Navbar/Navbar';
-import Route1 from './pages/Route1/Route1';
+import Knee from './pages/Knee/Knee';
 
 function App() {
 
@@ -14,7 +14,7 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path="/" element={<Skeleton />} />
-          <Route path="knee" element={<Route1 />}/>
+          <Route path="knee" element={<Knee />}/>
         </Routes>
       </Router>  
     </ThemeProvider>
