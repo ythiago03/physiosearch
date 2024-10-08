@@ -4,6 +4,7 @@ import Joelho from './pages/Joelho/Joelho';
 import Skeleton from './pages/Skeleton/Skeleton';
 import { ThemeProvider } from './components/Theme/theme-provider';
 import Navbar from './components/Navbar/Navbar';
+import Route1 from './pages/Route1/Route1';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path="/" element={<Skeleton />} />
+          <Route path="knee" element={<Route1 />}/>
         </Routes>
       </Router>  
     </ThemeProvider>

@@ -1,0 +1,83 @@
+.article_container{
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &::before{
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("src/assets/dottedBackground.png");
+    opacity: 0.4;
+    z-index: -1;
+  }
+
+  .separator{
+    width: 70%;
+  }
+  
+  .article_header{ 
+    width: 70%;
+    margin-bottom: 1rem;
+
+    h1{
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .article_tag{
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+
+      .material-symbols-outlined{
+        font-size: 1rem;
+      }
+    }
+
+    .article_tag-wrapper{
+      display: flex;
+      gap: 1rem;
+
+      .article_tag{
+        &:first-child{
+          cursor: pointer;
+
+          &:hover{
+            color: rgb(107, 3, 107);
+          }
+        }
+      }
+    }
+  }
+
+  .article_wrapper{
+    width: 70%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .article_content{
+      h2{
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        display: inline-block;
+      } 
+    }
+
+    .youtube{
+      margin: 0 auto;
+    }
+  }
+}

@@ -43,12 +43,12 @@ const Skeleton = () => {
         <ul>
           <h4>Ossos</h4>
           <li onClick={zoomToJoelho}>
-            <span className="material-symbols-outlined">user_attributes</span>
-            Osso 1
+            <span className="material-symbols-outlined">tibia</span>
+            Patela
           </li>
       
           <li onClick={zoomToJoelho}>
-            <span className="material-symbols-outlined">user_attributes</span>
+            <span className="material-symbols-outlined">femur</span>
             Osso 2
           </li>
         </ul>
@@ -94,7 +94,7 @@ const Skeleton = () => {
           ref={transformComponentRef}
         >
           <TransformComponent>
-            <img className='bg-yellow-300 skeleton-full' src={skeletonPng} alt="Esqueleto do corpo humano" />
+            <img className='skeleton-full' src={skeletonPng} alt="Esqueleto do corpo humano" />
             <Link id='joelho' className='joelho' to="/knee">
               <img className='joelho-patela' src={joelhoPng} alt="" />
             </Link>
@@ -107,7 +107,7 @@ const Skeleton = () => {
           ref={transformComponentRef}
         >
           <TransformComponent>
-            <img className='bg-lime-300 skeleton-full' src={skeletonPng} alt="Esqueleto do corpo humano" />
+            <img className='skeleton-full' src={skeletonPng} alt="Esqueleto do corpo humano" />
             <Link id='joelho' className='joelho' to="/rota1">
               <img className='joelho-patela' src={joelhoPng} alt="" />
             </Link>
