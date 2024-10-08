@@ -1,22 +1,9 @@
-import { useState } from 'react'
 import './Knee.scss'
 import { Separator } from "@/components/ui/separator"
 import { Link } from 'react-router-dom'
 import YouTube from 'react-youtube';
 
 const Knee = () => {
-  const [player, setPlayer] = useState<any>();
-
-  const onPlayerReady = (event: any) => {
-    const player = event.target;
-    setPlayer(player);
-  };
-
-  // const seekToTime = (seconds: number) => {
-  //   if(player){
-  //     player.seekTo(seconds)
-  //   }
-  // }
 
   const options = {
     playerVars: {
@@ -79,7 +66,6 @@ const Knee = () => {
             className="youtube"
             videoId="wszljuxRKC8"
             opts={options}
-            onReady={onPlayerReady}
           />
         </div>
         <div className='article_content'>
