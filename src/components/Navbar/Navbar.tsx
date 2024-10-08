@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <header className='navbar_container'>
       <Link to={"/"}>
-        <h1>DevUtils</h1>
+        <h1>PhysioSearch</h1>
       </Link>
 
       <ThemeToggle/>

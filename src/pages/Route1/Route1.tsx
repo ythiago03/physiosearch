@@ -10,7 +10,6 @@ const Route1 = () => {
   const onPlayerReady = (event: any) => {
     const player = event.target;
     setPlayer(player);
-    player.playVideo();
   };
 
   const seekToTime = (seconds: number) => {
@@ -20,9 +19,8 @@ const Route1 = () => {
   }
 
   const options = {
-    height: "390",
-    width: "640",
     playerVars: {
+      rel: 0,
       autoplay: 0,
     },
   };
@@ -76,12 +74,14 @@ const Route1 = () => {
             A patela é formada por uma superfície lisa de cartilagem que cobre sua face posterior, permitindo que ela deslize suavemente sobre o fêmur durante os movimentos de flexão e extensão do joelho. Ela é mantida no lugar por ligamentos e músculos que estabilizam a articulação. Na parte inferior, o tendão patelar conecta a patela à tíbia, enquanto a parte superior está unida ao tendão do quadríceps.
           </p>
         </div>
-        <YouTube
-        className="youtube"
-          videoId="wszljuxRKC8"
-          opts={options}
-          onReady={onPlayerReady}
-        />
+        <div className="videoWrapper">
+          <YouTube
+            className="youtube"
+            videoId="wszljuxRKC8"
+            opts={options}
+            onReady={onPlayerReady}
+          />
+        </div>
         <div className='article_content'>
           <h2>
             Cuidados Preventivos com a Patela

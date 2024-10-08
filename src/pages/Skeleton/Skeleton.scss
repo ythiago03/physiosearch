@@ -2,7 +2,7 @@
 
 .home_container{
   display: flex;
-  
+  padding-top: 100px;  
 
   .sidebar_container{
     height: calc(100vh - 100px);
@@ -80,7 +80,9 @@
     .transform-component-module_wrapper__SPB86{
       margin: 0 auto;
       position: relative;
-      min-width: 90%;
+      width: 90%;
+      display: flex;
+      align-items: center;
     
       .skeleton-full{
         margin: 0 auto;

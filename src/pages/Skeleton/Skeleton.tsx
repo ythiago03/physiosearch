@@ -39,6 +39,7 @@ const Skeleton = () => {
   }
   return (
     <section className="home_container">
+      
       <nav className="sidebar_container">
         <ul>
           <h4>Ossos</h4>
@@ -91,6 +92,7 @@ const Skeleton = () => {
         <span onClick={() => setIsOssos(!isOssos)} className="material-symbols-outlined">cached</span>
         {isOssos &&<TransformWrapper
           initialScale={1}
+          centerOnInit={true}
           ref={transformComponentRef}
         >
           <TransformComponent>
