@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './Knee.scss'
 import { Separator } from "@/components/ui/separator"
 import { Link } from 'react-router-dom'
@@ -12,11 +12,11 @@ const Knee = () => {
     setPlayer(player);
   };
 
-  const seekToTime = (seconds: number) => {
-    if(player){
-      player.seekTo(seconds)
-    }
-  }
+  // const seekToTime = (seconds: number) => {
+  //   if(player){
+  //     player.seekTo(seconds)
+  //   }
+  // }
 
   const options = {
     playerVars: {

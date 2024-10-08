@@ -1,4 +1,3 @@
-import React from 'react'
 import './Navbar.scss'
 import ThemeToggle from '../Theme/theme-toggle'
 import { Link } from 'react-router-dom'
