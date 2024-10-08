@@ -1,0 +1,105 @@
+.article_container{
+  width: 100%;
+  position: relative;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("src/assets/dottedBackground.png");
+    opacity: 0.4;
+    z-index: -1;
+  }
+
+  .separator{
+    width: 70%;
+  }
+  
+  .article_header{ 
+    padding-top: 100px;  
+    width: 70%;
+    margin-bottom: 1rem;
+
+    @media (max-width: 730px){
+      width: 95%;
+    }
+
+    h1{
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .article_tag{
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+
+      .material-symbols-outlined{
+        font-size: 1rem;
+      }
+    }
+
+    .article_tag-wrapper{
+      display: flex;
+      gap: 1rem;
+
+      .article_tag{
+        &:first-child{
+          cursor: pointer;
+
+          &:hover{
+            color: rgb(107, 3, 107);
+          }
+        }
+      }
+    }
+  }
+
+  .article_wrapper{
+    width: 70%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    @media (max-width: 730px){
+      width: 95%;
+    }
+
+    .article_content{
+      h2{
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        display: inline-block;
+      } 
+    }
+
+    .videoWrapper{
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+
+      .youtube iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      .youtube{
+        margin: 0 auto;
+      }
+    }
+  }
+}

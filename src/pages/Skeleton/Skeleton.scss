@@ -1,0 +1,131 @@
+@import 'src/styles/main.scss';
+
+.home_container{
+  display: flex;
+  padding-top: 100px;  
+
+  .sidebar_container{
+    height: calc(100vh - 100px);
+    width: 300px;
+    padding: 1.5rem;
+
+    ul{
+      margin: 1.5rem 0;
+      display: flex;
+      flex-direction: column;
+      gap: .2rem;
+
+      h4{
+        font-weight: 600;
+      }
+
+      li{
+        @include flex-align(flex-start, center);
+        gap: .5rem;
+        color: gray;
+        cursor: pointer;
+        padding: 0.2rem;
+
+        &:hover{
+          background-color: rgba(128, 128, 128, 0.233);
+          border-radius: 5px;
+        }     
+      }
+
+      .active{
+        display: flex;
+
+        &::before{
+          display: block;
+          content: '';
+          height: 30px;
+          border-radius: 10px;
+          width: 5px;
+          background-color: white;
+        }
+        
+        li{
+          flex: 1;
+          background-color: rgba(128, 128, 128, 0.233);
+          border-radius: 5px;
+        }
+      }
+    }
+
+    .divider{
+      width: 100%;
+      height: 1px;
+      display: flex;
+      background-color: rgba(128, 128, 128, 0.233);
+      margin: .2rem 0;
+    }
+  }
+
+  .main_container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    .controls-wrapper{
+      display: flex;
+      gap: 1rem;
+    }
+
+    .material-symbols-outlined{
+      cursor: pointer;
+    }
+
+    .transform-component-module_wrapper__SPB86{
+      margin: 0 auto;
+      position: relative;
+      width: 90%;
+      display: flex;
+      align-items: center;
+    
+      .skeleton-full{
+        margin: 0 auto;
+        max-width: 650px;
+        width: 55%;
+      }
+    
+      .joelho{
+        position: absolute;
+        width: 23px;
+        height: 20px;
+        bottom: 224px;
+        border-radius: 10px;
+        left: 324px;
+      
+        &:hover{
+          .joelho-patela{
+            transition: transform 300ms ease-in-out;
+            transform: scale(1.02);
+            filter: sepia(100%) saturate(500%) hue-rotate(180deg);
+          }
+        }
+      
+        .joelho-patela{
+          position: absolute;
+          top: -4px;
+          left: -4px;
+          min-width: 28px;
+          transition: transform 300ms ease-in-out;
+        }
+      }
+    }
+  }
+}
+
+.light{
+  .home_container{
+    .sidebar_container{
+      .active{
+        &::before{
+          background-color: black;
+        }
+      }
+    }
+  }
+}

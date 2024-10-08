@@ -1,18 +1,23 @@
 import './index.scss';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './pages/Home/Home';
-import Joelho from './pages/Joelho/Joelho';
+import Skeleton from './pages/Skeleton/Skeleton';
+import { ThemeProvider } from './components/Theme/theme-provider';
+import Navbar from './components/Navbar/Navbar';
+import Knee from './pages/Knee/Knee';
 
 function App() {
 
 
   return (
-    <Router>
-      <Routes>
-        <Route index path="/" element={<Home />} />
-        <Route path="/rota1" element={<Joelho />} />
-      </Routes>
-    </Router>
+    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+      <Router>
+        <Navbar/>
+        <Routes>
+          <Route path="/" element={<Skeleton />} />
+          <Route path="knee" element={<Knee />}/>
+        </Routes>
+      </Router>  
+    </ThemeProvider>
   )
 }
 
