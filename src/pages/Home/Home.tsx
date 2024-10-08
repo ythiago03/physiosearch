@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 
 
 import skeletonPng from '../../assets/skeleton.png';
-import joelhoPng from '../../assets/joelho.png';
+import joelhoPng from '../../assets/patela.png';
 
 const Home = () => {
   const transformComponentRef = useRef<ReactZoomPanPinchRef | null>(null);
@@ -41,26 +41,10 @@ const Home = () => {
 
   return (
     <main className='home_container'>
-      <ul className="list">
-        <li className="icon-content">
-          <button>
-          <div className="filled"></div>
-          <svg 
-              viewBox="0 0 32 32"
-              className="bi bi-github"
-              fill="currentColor"
-              height="32"
-              width="32"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path fill="currentColor" d="M8.967 15.836c1.524 1.189 3.71 1.324 5.388.417a4.887 4.887 0 0 0 2.825.911c.371 0 .742-.044 1.104-.135 1.598-.402 2.954-1.707 3.457-3.325.328-1.059.288-2.111.25-3.129a24.528 24.528 0 0 1-.023-.812c-.027-2.932.997-5.896 2.811-8.134A1 1 0 0 0 23.225.37c-2.101 2.592-3.287 6.022-3.256 9.411.003.289.014.579.024.87.033.889.065 1.729-.161 2.46-.3.966-1.099 1.743-2.035 1.978-.925.233-1.962-.072-2.641-.777a1.001 1.001 0 0 0-1.35-.084c-1.004.813-2.588.827-3.607.032-1.043-.813-1.483-2.447-1.001-3.718.455-1.204 1.758-2.045 2.961-1.984a6.181 6.181 0 0 0 1.298 3.758.499.499 0 1 0 .788-.616 5.161 5.161 0 0 1-1.063-3.503c.199-.239.409-.577.678-1.013.867-1.408 2.483-4.03 3.709-5.496A1 1 0 0 0 16.036.404c-1.319 1.576-2.984 4.278-3.879 5.73l-.26.421c-1.959.058-3.853 1.382-4.572 3.278-.787 2.078-.081 4.659 1.642 6.003zM14.646 20.536l.218.082c.867.33 1.946.739 3.063.348.407-.142.731-.363 1.018-.558.115-.078.229-.157.35-.226.171-.099.279-.108.315-.073.104.164.143.453.168.741.211 2.317.573 4.663.923 6.931.174 1.121.347 2.24.502 3.357a1 1 0 0 0 1.981-.275c-.156-1.126-.331-2.256-.506-3.387-.346-2.237-.703-4.551-.907-6.806-.049-.538-.14-1.108-.474-1.635-.646-1.013-1.854-1.247-3.001-.585a7.493 7.493 0 0 0-.475.305c-.203.138-.395.268-.554.324-.429.146-1.043-.083-1.692-.329l-.229-.087c-2.194-.819-3.301-.04-3.763.498-.4.465-.642 1.096-.681 1.775-.051.858.189 1.706.404 2.348.39 1.165.881 2.591 1.373 4.019.492 1.426.984 2.853 1.373 4.016a.999.999 0 0 0 1.896-.636 487.724 487.724 0 0 0-1.379-4.034c-.489-1.421-.979-2.841-1.367-4.001-.158-.472-.335-1.079-.305-1.597.014-.241.087-.455.2-.586.307-.355 1.262-.036 1.549.071z">
-              </path>
-            </svg>
-          </button>
-          <div className="tooltip">Ver Ossos</div>
-        </li>
-        <li className="icon-content">
-          <button>
+      <div className='teste'>
+        <ul className="list">
+          <li className="icon-content">
+            <button>
             <div className="filled"></div>
             <svg 
               className="bi bi-github"
@@ -96,6 +80,7 @@ const Home = () => {
           <div className="tooltip">Ver Ligamentos</div>
         </li>
       </ul>
+      </div>
       <div className='controls_wrapper'>
           <button className='bg-[#50d71e] button-control' onClick={zoomToJoelho}>Joelho</button>
           <button className='button-control' onClick={zoomIn}>Zoom in +</button>
