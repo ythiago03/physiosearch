@@ -4,12 +4,14 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom'
 import YouTube from 'react-youtube';
 import { Skeleton } from "@/components/ui/skeleton"
+import dottedBackground from '../../assets/dottedBackground.png';
 
 const Knee = () => {
   const [isPlayerLoading, setIsPlayerLoading] = useState(true)
 
   const onPlayerReady = (): void => {
     setIsPlayerLoading(false);
+    console.log(dottedBackground);
   };
 
   const options = {
