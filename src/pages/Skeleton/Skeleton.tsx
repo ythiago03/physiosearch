@@ -4,7 +4,15 @@ import './Skeleton.scss';
 import { useRef, useState } from 'react';
 import skeletonPng from '../../assets/skeleton.png';
 import joelhoPng from '../../assets/patela.png';
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 
 const Skeleton = () => {
   const transformComponentRef = useRef<ReactZoomPanPinchRef | null>(null);
@@ -100,6 +108,32 @@ const Skeleton = () => {
             <Link id='joelho' className='joelho' to="/knee">
               <img className='joelho-patela' src={joelhoPng} alt="" />
             </Link>
+            
+            <Dialog>
+              <DialogTrigger asChild>
+                <button className='joelho2'>
+                  <img className='joelho-patela2' src={joelhoPng} alt="" />
+                </button>
+              </DialogTrigger>
+              <DialogContent className="sm:max-w-[425px] dialog">
+                <DialogHeader>
+                  <DialogTitle>Tornozelo</DialogTitle>
+                  <DialogDescription>
+                    Clique em alguma área para ir para o artigo
+                  </DialogDescription>
+                </DialogHeader>
+                <TransformWrapper
+                  initialScale={1}
+                  centerOnInit={true}
+                >
+                  <TransformComponent>
+                  <Link to="/knee">
+                    <img className='m-auto' src="src/assets/joelho.png" alt="" />
+                  </Link>
+                  </TransformComponent>
+                </TransformWrapper>
+              </DialogContent>
+          </Dialog>
 
           </TransformComponent>
         </TransformWrapper>}
