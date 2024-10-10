@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom'
 import YouTube from 'react-youtube';
 import { Skeleton } from "@/components/ui/skeleton"
-import dottedBackground from 'src/assets/dottedBackground.png';
+import dottedBackground from '../../assets/dottedBackground.png';
 
 const Knee = () => {
   const [isPlayerLoading, setIsPlayerLoading] = useState(true)
