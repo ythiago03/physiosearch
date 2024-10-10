@@ -4,7 +4,6 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom'
 import YouTube from 'react-youtube';
 import { Skeleton } from "@/components/ui/skeleton"
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import dottedBackground from 'src/assets/dottedBackground.png';
 
 const Knee = () => {
@@ -12,6 +11,7 @@ const Knee = () => {
 
   const onPlayerReady = (): void => {
     setIsPlayerLoading(false);
+    console.log(dottedBackground);
   };
 
   const options = {
