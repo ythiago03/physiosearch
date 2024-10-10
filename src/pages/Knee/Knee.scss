@@ -14,7 +14,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-image: url("src/assets/dottedBackground.png");
+    background-image: url(${dottedBackground});
     opacity: 0.3;
     z-index: -1;
   }
