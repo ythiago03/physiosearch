@@ -4,6 +4,8 @@ import Skeleton from './pages/Skeleton/Skeleton';
 import { ThemeProvider } from './components/Theme/theme-provider';
 import Navbar from './components/Navbar/Navbar';
 import Knee from './pages/Knee/Knee';
+import Footer from './components/Footer/Footer';
+import { Separator } from "@/components/ui/separator";
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
           <Route path="/" element={<Skeleton />} />
           <Route path="knee" element={<Knee />}/>
         </Routes>
+        <Separator/>
+        <Footer/>
       </Router>  
     </ThemeProvider>
   )
