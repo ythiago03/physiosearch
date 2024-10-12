@@ -13,6 +13,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
+import { Separator } from "@/components/ui/separator";
 
 const Skeleton = () => {
   const transformComponentRef = useRef<ReactZoomPanPinchRef | null>(null);
@@ -122,16 +123,23 @@ const Skeleton = () => {
                     Clique em alguma área para ir para o artigo
                   </DialogDescription>
                 </DialogHeader>
-                <TransformWrapper
-                  initialScale={1}
-                  centerOnInit={true}
-                >
-                  <TransformComponent>
-                  <Link to="/knee">
-                    <img className='m-auto' src="src/assets/joelho.png" alt="" />
-                  </Link>
-                  </TransformComponent>
-                </TransformWrapper>
+                <img className='m-auto' src="src/assets/joelho.png" alt="" />
+                <div>
+                <div className="space-y-1">
+                  <h3 className="text-lg font-medium leading-none">Radix Primitives</h3>
+                  <p className="text-md text-muted-foreground">
+                    An open-source UI component library.
+                  </p>
+                </div>
+                <Separator className="my-4" />
+                <div className="flex h-5 items-center space-x-4 text-sm">
+                  <div>Blog</div>
+                  <Separator orientation="vertical" />
+                  <div>Docs</div>
+                  <Separator orientation="vertical" />
+                  <div>Source</div>
+                </div>
+              </div>
               </DialogContent>
           </Dialog>
 

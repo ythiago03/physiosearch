@@ -1,0 +1,36 @@
+@import 'src/styles/main.scss';
+
+.footer_container{
+  width: 100%;
+  @include flex-align(space-evenly, center);
+  padding: 1.5rem;
+  background: #FFFFFF;
+
+  a{
+    &:hover{
+        font-weight: 700;
+    }
+  }
+
+  .gitHub{
+      a{
+        display: flex;
+        align-items: center;
+        gap: .2rem;
+
+        h3{
+            font-size: 1.3rem;
+        }
+        
+        .material-symbols-outlined{
+            font-size: 1.2rem;
+        }
+    }
+  }
+}
+
+.dark{
+    .footer_container{
+      background-color: #0A0A0A;
+    }
+  }
