@@ -13,7 +13,15 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { Separator } from "@/components/ui/separator";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+import { Separator } from '@/components/ui/separator';
+
+
 
 const Skeleton = () => {
   const transformComponentRef = useRef<ReactZoomPanPinchRef | null>(null);
@@ -116,30 +124,163 @@ const Skeleton = () => {
                   <img className='joelho-patela2' src={joelhoPng} alt="" />
                 </button>
               </DialogTrigger>
-              <DialogContent className="sm:max-w-[425px] dialog">
+              <DialogContent className="sm:max-w-[500px] dialog">
+
                 <DialogHeader>
                   <DialogTitle>Tornozelo</DialogTitle>
                   <DialogDescription>
-                    Clique em alguma área para ir para o artigo
+                    Clique sobre uma patologia para saber mais detalhes
                   </DialogDescription>
                 </DialogHeader>
+
                 <img className='m-auto' src="src/assets/joelho.png" alt="" />
-                <div>
-                <div className="space-y-1">
-                  <h3 className="text-lg font-medium leading-none">Radix Primitives</h3>
-                  <p className="text-md text-muted-foreground">
-                    An open-source UI component library.
-                  </p>
-                </div>
-                <Separator className="my-4" />
-                <div className="flex h-5 items-center space-x-4 text-sm">
-                  <div>Blog</div>
-                  <Separator orientation="vertical" />
-                  <div>Docs</div>
-                  <Separator orientation="vertical" />
-                  <div>Source</div>
-                </div>
-              </div>
+                <Accordion type="single" collapsible>
+                  <AccordionItem value="item-1">
+                    <AccordionTrigger>Osteoartrite do Joelho</AccordionTrigger>
+                    <AccordionContent>
+                      <div className='model_wrapper'>
+                        <h3>Artigos</h3>
+                        <ul>
+                          <li>
+                            <Link to={"/"}>
+                              <h4>Biomechanics of the Knee: An Overview <span className="material-symbols-outlined">north_east</span></h4>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to={"/"}>
+                              <h4>Knee Osteoarthritis: Pathophysiology and Management <span className="material-symbols-outlined">north_east</span></h4>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to={"/"}>
+                              <h4>ACL Injuries: Mechanisms, Risk Factors, and Prevention <span className="material-symbols-outlined">north_east</span></h4>
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                      
+                      <Separator className='m-4'/>
+
+                      <div className='model_wrapper'>
+                        <h3>Testes</h3>
+                        <ul>
+                          <li>
+                            <Link to={"/"}>
+                            <h4>Teste de Lachman<span className="material-symbols-outlined">north_east</span></h4>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to={"/"}>
+                              <h4>Teste de McMurray<span className="material-symbols-outlined">north_east</span></h4>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to={"/"}>
+                              <h4>Teste de Compressão de Apley<span className="material-symbols-outlined">north_east</span></h4>
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="item-2">
+                    <AccordionTrigger>Lesão do Ligamento Cruzado Anterior (LCA)</AccordionTrigger>
+                    <AccordionContent>
+                      <div className='model_wrapper'>
+                        <h3>Artigos</h3>
+                        <ul>
+                          <li>
+                            <Link to={"/"}>
+                              <h4>Biomechanics of the Knee: An Overview <span className="material-symbols-outlined">north_east</span></h4>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to={"/"}>
+                              <h4>Knee Osteoarthritis: Pathophysiology and Management <span className="material-symbols-outlined">north_east</span></h4>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to={"/"}>
+                              <h4>ACL Injuries: Mechanisms, Risk Factors, and Prevention <span className="material-symbols-outlined">north_east</span></h4>
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                      
+                      <Separator className='m-4'/>
+
+                      <div className='model_wrapper'>
+                        <h3>Testes</h3>
+                        <ul>
+                          <li>
+                            <Link to={"/"}>
+                            <h4>Teste de Lachman<span className="material-symbols-outlined">north_east</span></h4>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to={"/"}>
+                              <h4>Teste de McMurray<span className="material-symbols-outlined">north_east</span></h4>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to={"/"}>
+                              <h4>Teste de Compressão de Apley<span className="material-symbols-outlined">north_east</span></h4>
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </AccordionContent>
+                  </AccordionItem>
+                  <AccordionItem value="item-3">
+                    <AccordionTrigger>Tendinite Patelar (Joelho de Saltador)</AccordionTrigger>
+                    <AccordionContent>
+                      <div className='model_wrapper'>
+                        <h3>Artigos</h3>
+                        <ul>
+                          <li>
+                            <Link to={"/"}>
+                              <h4>Biomechanics of the Knee: An Overview <span className="material-symbols-outlined">north_east</span></h4>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to={"/"}>
+                              <h4>Knee Osteoarthritis: Pathophysiology and Management <span className="material-symbols-outlined">north_east</span></h4>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to={"/"}>
+                              <h4>ACL Injuries: Mechanisms, Risk Factors, and Prevention <span className="material-symbols-outlined">north_east</span></h4>
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                      
+                      <Separator className='m-4'/>
+
+                      <div className='model_wrapper'>
+                        <h3>Testes</h3>
+                        <ul>
+                          <li>
+                            <Link to={"/"}>
+                            <h4>Teste de Lachman<span className="material-symbols-outlined">north_east</span></h4>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to={"/"}>
+                              <h4>Teste de McMurray<span className="material-symbols-outlined">north_east</span></h4>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to={"/"}>
+                              <h4>Teste de Compressão de Apley<span className="material-symbols-outlined">north_east</span></h4>
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </AccordionContent>
+                  </AccordionItem>
+                </Accordion>
+
               </DialogContent>
           </Dialog>
 
