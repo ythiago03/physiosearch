@@ -142,7 +142,7 @@ const Skeleton = () => {
                         <h3>Artigos</h3>
                         <ul>
                           <li>
-                            <Link to={"/"}>
+                            <Link to={"/knee"}>
                               <h4>Biomechanics of the Knee: An Overview <span className="material-symbols-outlined">north_east</span></h4>
                             </Link>
                           </li>
