@@ -188,3 +188,31 @@
     cursor: pointer;
   }
 }
+
+.model_wrapper{
+  h3{
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  ul{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    a{
+      h4{
+        @include flex-align(flex-start,center);
+        gap: .3rem;
+
+        .material-symbols-outlined{
+          font-size: 1rem;
+        }
+      }
+      &:hover{
+        color: rgb(107, 3, 107);
+        text-decoration: underline;
+      }
+    }
+  }
+}

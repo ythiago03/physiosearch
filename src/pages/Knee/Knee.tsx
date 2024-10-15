@@ -29,7 +29,7 @@ const Knee = () => {
         <div className='article_tag-wrapper'>
           <Link target='_blank' to={"https://fonts.google.com"} className='article_tag'>
             <span className="material-symbols-outlined">link</span>
-            <span>Artigo</span>
+            <span>Artigo Completo</span>
           </Link> 
           <div className='article_tag'>
             <span className="material-symbols-outlined">schedule</span>
