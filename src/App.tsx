@@ -12,15 +12,19 @@ function App() {
 
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <Router>
-        <Navbar/>
-        <Routes>
-          <Route path="/" element={<Skeleton />} />
-          <Route path="knee" element={<Knee />}/>
-        </Routes>
-        <Separator/>
-        <Footer/>
-      </Router>  
+      <div className="app_container">
+        <Router>
+          <Navbar/>
+          <div className="content">
+            <Routes>
+              <Route path="/" element={<Skeleton />} />
+              <Route path="knee" element={<Knee />}/>
+            </Routes>
+          </div>
+          <Separator/>
+          <Footer/>
+        </Router>  
+      </div>
     </ThemeProvider>
   )
 }

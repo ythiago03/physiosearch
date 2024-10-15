@@ -1,1 +1,11 @@
 @import './styles/main';
+
+.app_container{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.content{
+  flex: 1;
+}
