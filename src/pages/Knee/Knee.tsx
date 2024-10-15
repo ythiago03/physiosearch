@@ -1,23 +1,9 @@
 import './Knee.scss'
 import { Separator } from "@/components/ui/separator"
-import { useState } from 'react';
 import { Link } from 'react-router-dom'
-import YouTube from 'react-youtube';
-import { Skeleton } from "@/components/ui/skeleton"
 
 const Knee = () => {
-  const [isPlayerLoading, setIsPlayerLoading] = useState(true)
-
-  const onPlayerReady = (): void => {
-    setIsPlayerLoading(false);
-  };
-
-  const options = {
-    playerVars: {
-      rel: 0,
-      autoplay: 0,
-    },
-  };
+  
   return (
     <main className='article_container'>
       <div className='article_header'>
@@ -68,23 +54,6 @@ const Knee = () => {
             A patela é formada por uma superfície lisa de cartilagem que cobre sua face posterior, permitindo que ela deslize suavemente sobre o fêmur durante os movimentos de flexão e extensão do joelho. Ela é mantida no lugar por ligamentos e músculos que estabilizam a articulação. Na parte inferior, o tendão patelar conecta a patela à tíbia, enquanto a parte superior está unida ao tendão do quadríceps.
           </p>
         </div>
-        <div 
-          className="videoWrapper"
-          style={{display: isPlayerLoading ? "none" : "block"}}
-        >
-          <YouTube
-            className="youtube"
-            videoId="wszljuxRKC8"
-            opts={options}
-            onReady={onPlayerReady}
-          />
-        </div>
-        {
-          isPlayerLoading &&
-          <div className="flex flex-col space-y-3">
-            <Skeleton className="m-auto h-[400px] w-[100%] rounded-xl" />
-          </div>
-        }
         <div className='article_content'>
           <h2>
             Cuidados Preventivos com a Patela
