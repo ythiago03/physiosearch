@@ -5,6 +5,12 @@
   @include flex-align(space-evenly, center);
   padding: 1.5rem;
   background: #FFFFFF;
+  gap: 1rem;
+  text-align: center;
+
+  @media (max-width: 700px){
+    flex-direction: column;
+  }
 
   a{
     &:hover{
