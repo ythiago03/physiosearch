@@ -1,14 +1,3 @@
-import { Link } from 'react-router-dom';
-import { TransformWrapper, TransformComponent, ReactZoomPanPinchRef } from "react-zoom-pan-pinch";
-import './Skeleton.scss';
-import { useRef } from 'react';
-import skeletonPng from '../../assets/skeleton.png';
-import detailedHip from '../../assets/detailedHip.png';
-import detailedKnee from '../../assets/detailedKnee.png';
-import detailedAnkle from '../../assets/detailedAnkle.png';
-import knee from '../../assets/knee.png';
-import hip from '../../assets/hip.png';
-import ankle from '../../assets/ankle.png';
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
@@ -26,6 +15,19 @@ import {
 } from "@/components/ui/accordion";
 import { Separator } from '@/components/ui/separator';
 
+import { Link } from 'react-router-dom';
+import { TransformWrapper, TransformComponent, ReactZoomPanPinchRef } from "react-zoom-pan-pinch";
+import { useRef } from 'react';
+
+import skeletonPng from '../../assets/skeleton.png';
+import detailedHip from '../../assets/detailedHip.png';
+import detailedKnee from '../../assets/detailedKnee.png';
+import detailedAnkle from '../../assets/detailedAnkle.png';
+import knee from '../../assets/knee.png';
+import hip from '../../assets/hip.png';
+import ankle from '../../assets/ankle.png';
+
+import './Skeleton.scss';
 
 const Skeleton = () => {
   const transformComponentRef = useRef<ReactZoomPanPinchRef | null>(null);
