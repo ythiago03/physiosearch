@@ -34,20 +34,20 @@
       .skeleton-full{
         margin: 0 auto;
         max-width: 650px;
-        width: 55%;
+        width: 75%;
 
         @media (max-width: 740px){
-          width: 300px;
+          width: 400px;
         }
       }
     
-      .joelho{
+      .knee_btn{//background-color: rgba(255, 0, 0, 0.438);
         position: absolute;
-        width: 23px;
-        height: 20px;
-        bottom: 224px;
-        border-radius: 10px;
-        left: 324px;
+        width: 130px;
+        height: 170px;
+        bottom: 134px;
+       // border-radius: 10px;
+        left:250px;
 
         @media (max-width: 740px){
           bottom: 208px;
@@ -55,21 +55,55 @@
         }
       
         &:hover{
-          .joelho-patela{
+          .knee{
             transition: transform 300ms ease-in-out;
             transform: scale(1.02);
             filter: sepia(100%) saturate(500%) hue-rotate(180deg);
           }
         }
       
-        .joelho-patela{
+        .knee{
           position: absolute;
-          top: -4px;
-          left: -4px;
-          min-width: 28px;
+          top: -14px;
+          left: 6px;
+          width: 127px;
           transition: transform 300ms ease-in-out;
         }
       }
+
+      .ankle_btn{
+        position: absolute;
+        width: 140px;
+        height: 140px;
+        bottom: 0px;
+        border-radius: 10px;
+        left: 250px;
+        border-radius: 200px 200px 0px 3px;
+        -moz-border-radius: 200px 200px 0px 3px;
+        -webkit-border-radius: 200px 200px 0px 3px;
+        border: 0px solid #000000;
+        @media (max-width: 740px){
+          bottom: 208px;
+          left: 176px;
+        }
+      
+        &:hover{
+          .ankle{
+            transition: transform 300ms ease-in-out;
+            transform: scale(1.02);
+            filter: sepia(100%) saturate(500%) hue-rotate(180deg);
+          }
+        }
+      
+        .ankle{
+          position: absolute;
+          top: -8px;
+          left: -13px;
+          min-width: 158px;
+          transition: transform 300ms ease-in-out;
+        }
+      }
+      
     }
   }
 }
@@ -86,35 +120,6 @@
   }
 }
 
-.joelho2{
-  position: absolute;
-  width: 23px;
-  height: 20px;
-  bottom: 60px;
-  border-radius: 10px;
-  left: 264px;
-
-  @media (max-width: 740px){
-    bottom: 208px;
-    left: 176px;
-  }
-
-  &:hover{
-    .joelho-patela2{
-      transition: transform 300ms ease-in-out;
-      transform: scale(1.02);
-      filter: sepia(100%) saturate(500%) hue-rotate(180deg);
-    }
-  }
-
-  .joelho-patela2{
-    position: absolute;
-    top: -4px;
-    left: -4px;
-    min-width: 28px;
-    transition: transform 300ms ease-in-out;
-  }
-}
 
 .model_wrapper{
   h3{
