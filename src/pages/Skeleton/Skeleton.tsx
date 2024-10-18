@@ -3,7 +3,7 @@ import { TransformWrapper, TransformComponent, ReactZoomPanPinchRef } from "reac
 import './Skeleton.scss';
 import { useRef } from 'react';
 import skeletonPng from '../../assets/skeleton.png';
-import joelhoPng from '../../assets/patela.png';
+import detailedHip from '../../assets/detailedHip.png';
 import detailedKnee from '../../assets/detailedKnee.png';
 import detailedAnkle from '../../assets/detailedAnkle.png';
 import knee from '../../assets/knee.png';
@@ -70,23 +70,23 @@ const Skeleton = () => {
 
             <Dialog>
                 <DialogTrigger asChild>
-                  <button className='knee_btn'>
-                    <img className='knee' src={knee} alt="" />
+                  <button className='hip_btn'>
+                    <img className='hip' src={hip} alt="" />
                   </button>
                 </DialogTrigger>
                 <DialogContent className="sm:max-w-[500px] dialog">
 
                   <DialogHeader>
-                    <DialogTitle>Tornozelo</DialogTitle>
+                    <DialogTitle>Quadril</DialogTitle>
                     <DialogDescription>
                       Clique sobre uma patologia para saber mais detalhes
                     </DialogDescription>
                   </DialogHeader>
 
-                  <img className='m-auto' src={detailedAnkle} alt="" />
+                  <img className='m-auto' src={detailedHip} alt="" />
                   <Accordion type="single" collapsible>
                     <AccordionItem value="item-1">
-                      <AccordionTrigger>Entorse</AccordionTrigger>
+                      <AccordionTrigger>LCA</AccordionTrigger>
                       <AccordionContent>
                         <div className='model_wrapper'>
                           <h3>Artigos</h3>
@@ -129,7 +129,120 @@ const Skeleton = () => {
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-2">
-                      <AccordionTrigger>Fascite plantar</AccordionTrigger>
+                      <AccordionTrigger>Sindrome patelofemoral</AccordionTrigger>
+                      <AccordionContent>
+                        <div className='model_wrapper'>
+                          <h3>Artigos</h3>
+                          <ul>
+                            <li>
+                              <Link to={"/"}>
+                                <h4>Biomechanics of the Knee: An Overview <span className="material-symbols-outlined">north_east</span></h4>
+                              </Link>
+                            </li>
+                            <li>
+                              <Link to={"/"}>
+                                <h4>Knee Osteoarthritis: Pathophysiology and Management <span className="material-symbols-outlined">north_east</span></h4>
+                              </Link>
+                            </li>
+                            <li>
+                              <Link to={"/"}>
+                                <h4>ACL Injuries: Mechanisms, Risk Factors, and Prevention <span className="material-symbols-outlined">north_east</span></h4>
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                        
+                        <Separator className='m-4'/>
+
+                        <div className='model_wrapper'>
+                          <h3>Testes</h3>
+                          <ul>
+                            <li>
+                              <Link to={"/"}>
+                              <h4>Teste de Lachman<span className="material-symbols-outlined">north_east</span></h4>
+                              </Link>
+                            </li>
+                            <li>
+                              <Link to={"/"}>
+                                <h4>Teste de McMurray<span className="material-symbols-outlined">north_east</span></h4>
+                              </Link>
+                            </li>
+                            <li>
+                              <Link to={"/"}>
+                                <h4>Teste de Compressão de Apley<span className="material-symbols-outlined">north_east</span></h4>
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                      </AccordionContent>
+                    </AccordionItem>
+                  </Accordion>
+
+                </DialogContent>
+            </Dialog>
+
+            <Dialog>
+                <DialogTrigger asChild>
+                  <button className='knee_btn'>
+                    <img className='knee' src={knee} alt="" />
+                  </button>
+                </DialogTrigger>
+                <DialogContent className="sm:max-w-[500px] dialog">
+
+                  <DialogHeader>
+                    <DialogTitle>Joelho</DialogTitle>
+                    <DialogDescription>
+                      Clique sobre uma patologia para saber mais detalhes
+                    </DialogDescription>
+                  </DialogHeader>
+
+                  <img className='m-auto' src={detailedKnee} alt="" />
+                  <Accordion type="single" collapsible>
+                    <AccordionItem value="item-1">
+                      <AccordionTrigger>LCA</AccordionTrigger>
+                      <AccordionContent>
+                        <div className='model_wrapper'>
+                          <h3>Artigos</h3>
+                          <ul>
+                            <li>
+                              <Link to={"/knee"}>
+                                <h4>Physical Therapy After an Ankle Sprain <span className="material-symbols-outlined">north_east</span></h4>
+                              </Link>
+                            </li>
+                            <li>
+                              <Link to={"/"}>
+                                <h4>Knee Osteoarthritis: Pathophysiology and Management <span className="material-symbols-outlined">north_east</span></h4>
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                        
+                        <Separator className='m-4'/>
+
+                        <div className='model_wrapper'>
+                          <h3>Testes</h3>
+                          <ul>
+                            <li>
+                              <Link to={"/"}>
+                              <h4>Teste de Lachman<span className="material-symbols-outlined">north_east</span></h4>
+                              </Link>
+                            </li>
+                            <li>
+                              <Link to={"/"}>
+                                <h4>Teste de McMurray<span className="material-symbols-outlined">north_east</span></h4>
+                              </Link>
+                            </li>
+                            <li>
+                              <Link to={"/"}>
+                                <h4>Teste de Compressão de Apley<span className="material-symbols-outlined">north_east</span></h4>
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                      </AccordionContent>
+                    </AccordionItem>
+                    <AccordionItem value="item-2">
+                      <AccordionTrigger>Sindrome patelofemoral</AccordionTrigger>
                       <AccordionContent>
                         <div className='model_wrapper'>
                           <h3>Artigos</h3>

@@ -40,14 +40,44 @@
           width: 400px;
         }
       }
+
+      .hip_btn{
+        position: absolute;
+        width: 150px;
+        height: 170px;
+        bottom: 317px;
+        left: 245px;
+        border-radius: 40%;
+        outline: none;
+
+        @media (max-width: 740px){
+          bottom: 208px;
+          left: 176px;
+        }
+      
+        &:hover{
+          .hip{
+            transition: transform 300ms ease-in-out;
+            filter: sepia(100%) saturate(500%) hue-rotate(180deg);
+          }
+        }
+      
+        .hip{
+          position: absolute;
+          top: -2px;
+          left: -2px;
+          width: 150px;
+          transition: transform 300ms ease-in-out;
+        }
+      }
     
-      .knee_btn{//background-color: rgba(255, 0, 0, 0.438);
+      .knee_btn{
         position: absolute;
         width: 130px;
         height: 170px;
         bottom: 134px;
-       // border-radius: 10px;
         left:250px;
+        outline: none;
 
         @media (max-width: 740px){
           bottom: 208px;
@@ -57,7 +87,6 @@
         &:hover{
           .knee{
             transition: transform 300ms ease-in-out;
-            transform: scale(1.02);
             filter: sepia(100%) saturate(500%) hue-rotate(180deg);
           }
         }
@@ -81,7 +110,8 @@
         border-radius: 200px 200px 0px 3px;
         -moz-border-radius: 200px 200px 0px 3px;
         -webkit-border-radius: 200px 200px 0px 3px;
-        border: 0px solid #000000;
+        outline: none;
+
         @media (max-width: 740px){
           bottom: 208px;
           left: 176px;
@@ -90,7 +120,6 @@
         &:hover{
           .ankle{
             transition: transform 300ms ease-in-out;
-            transform: scale(1.02);
             filter: sepia(100%) saturate(500%) hue-rotate(180deg);
           }
         }
