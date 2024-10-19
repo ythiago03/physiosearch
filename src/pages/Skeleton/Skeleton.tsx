@@ -76,7 +76,7 @@ const Skeleton = () => {
                     <img className='hip' src={hip} alt="" />
                   </button>
                 </DialogTrigger>
-                <DialogContent className="sm:max-w-[500px] dialog">
+                <DialogContent className="w-[500px] sm:w-[350px] md:w-[500px] dialog">
 
                   <DialogHeader>
                     <DialogTitle>Quadril</DialogTitle>
@@ -189,7 +189,7 @@ const Skeleton = () => {
                     <img className='knee' src={knee} alt="" />
                   </button>
                 </DialogTrigger>
-                <DialogContent className="sm:max-w-[500px] dialog">
+                <DialogContent className="w-[500px] sm:w-[350px] md:w-[500px] dialog">
 
                   <DialogHeader>
                     <DialogTitle>Joelho</DialogTitle>
@@ -302,7 +302,7 @@ const Skeleton = () => {
                     <img className='ankle' src={ankle} alt="" />
                   </button>
                 </DialogTrigger>
-                <DialogContent className="sm:max-w-[500px] dialog">
+                <DialogContent className="w-[500px] sm:w-[350px] md:w-[500px] dialog">
 
                   <DialogHeader>
                     <DialogTitle>Tornozelo</DialogTitle>
