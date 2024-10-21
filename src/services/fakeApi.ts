@@ -1,4 +1,6 @@
-const data = [
+import PartOfBody from "@/interfaces/PartOfBody";
+
+const data: PartOfBody[] = [
   {
     id: "iJSlOp",
     areaName: "Quadril",
@@ -11,6 +13,7 @@ const data = [
             id: "lNujHJ",
             title: "Entorse de Tornozelo",
             timeOfRead: 2,
+            dateOfPublication: "10/10/2024",
             link: "https://physiosearch.vercel.app",
             resume: [
               {
@@ -26,7 +29,7 @@ const data = [
             ]
           }
         ]
-      }
+      },
     ]
   },
   {
@@ -41,6 +44,7 @@ const data = [
             id: "X9aK81",
             title: "Entorse de Tornozelo",
             timeOfRead: 2,
+            dateOfPublication: "10/10/2024",
             link: "https://physiosearch.vercel.app",
             resume: [
               {
@@ -71,6 +75,7 @@ const data = [
             id: "CJFoqE",
             title: "Entorse de Tornozelo",
             timeOfRead: 2,
+            dateOfPublication: "10/10/2024",
             link: "https://physiosearch.vercel.app",
             resume: [
               {
