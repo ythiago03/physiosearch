@@ -41,7 +41,7 @@
         }
       }
 
-      .hip_btn{
+      .quadril_btn{
         position: absolute;
         width: 150px;
         height: 170px;
@@ -58,13 +58,13 @@
         }
       
         &:hover{
-          .hip{
+          .quadril{
             transition: transform 300ms ease-in-out;
             filter: sepia(100%) saturate(500%) hue-rotate(180deg);
           }
         }
       
-        .hip{
+        .quadril{
           position: absolute;
           top: -2px;
           left: -2px;
@@ -79,7 +79,7 @@
         }
       }
     
-      .knee_btn{
+      .joelho_btn{
         position: absolute;
         width: 130px;
         height: 170px;
@@ -95,13 +95,13 @@
         }
       
         &:hover{
-          .knee{
+          .joelho{
             transition: transform 300ms ease-in-out;
             filter: sepia(100%) saturate(500%) hue-rotate(180deg);
           }
         }
       
-        .knee{
+        .joelho{
           position: absolute;
           top: -14px;
           left: 6px;
@@ -116,7 +116,7 @@
         }
       }
 
-      .ankle_btn{
+      .tornozelo_btn{
         position: absolute;
         width: 140px;
         height: 140px;
@@ -136,13 +136,13 @@
         }
       
         &:hover{
-          .ankle{
+          .tornozelo{
             transition: transform 300ms ease-in-out;
             filter: sepia(100%) saturate(500%) hue-rotate(180deg);
           }
         }
       
-        .ankle{
+        .tornozelo{
           position: absolute;
           top: 0px;
           left: -3px;
