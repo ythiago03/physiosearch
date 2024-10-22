@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Skeleton from './pages/Skeleton/Skeleton';
 import { ThemeProvider } from './components/Theme/theme-provider';
 import Navbar from './components/Navbar/Navbar';
-import Knee from './pages/Knee/Knee';
 import Footer from './components/Footer/Footer';
 import { Separator } from "@/components/ui/separator";
+import Article from './pages/Article/Article';
 
 function App() {
 
@@ -18,7 +18,7 @@ function App() {
           <div className="content">
             <Routes>
               <Route path="/" element={<Skeleton />} />
-              <Route path="knee" element={<Knee />}/>
+              <Route path="article" element={<Article />}/>
             </Routes>
           </div>
           <Separator/>

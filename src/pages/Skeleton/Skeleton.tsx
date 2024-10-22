@@ -71,7 +71,7 @@ const Skeleton = () => {
                   <img className={partOfBody.areaName.toLowerCase()} src={'/assets/'+partOfBody.areaName.toLowerCase()+'.png'} alt={'Foto do '+partOfBody.areaName} />
                 </button>
               </DialogTrigger>
-              <DialogContent className="w-[500px] sm:w-[350px] md:w-[500px] dialog">
+              <DialogContent className="w-[80%] dialog">
 
                 <DialogHeader>
                   <DialogTitle>{partOfBody.areaName}</DialogTitle>
@@ -80,7 +80,7 @@ const Skeleton = () => {
                   </DialogDescription>
                 </DialogHeader>
 
-                <img className='m-auto' src={'/assets/'+partOfBody.areaName.toLowerCase()+'Detalhado.png'} alt="" />
+                <img className='m-auto w-[80%]' src={'/assets/'+partOfBody.areaName.toLowerCase()+'Detalhado.png'} alt="" />
                 <Accordion type="single" collapsible>
                   {
                     partOfBody.pathologies.map(pathology => {
@@ -92,7 +92,7 @@ const Skeleton = () => {
                           <ul>
                             {pathology.articles.map(article => {
                               return  <li key={article.id}>
-                              <Link to={"/article"}>
+                              <Link to={`/article?partOfBody=${partOfBody.id}&pathologieId=${pathology.id}&articleId=${article.id}`}>
                                 <h4>{article.title}<span className="material-symbols-outlined">north_east</span></h4>
                               </Link>
                             </li>
