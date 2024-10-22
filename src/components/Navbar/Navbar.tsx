@@ -35,7 +35,7 @@ const Navbar = () => {
             </Button>
           </DialogTrigger>
 
-          <DialogContent>
+          <DialogContent className='w-[80%]'>
             <DialogHeader>
               <DialogTitle>PhysioSearch</DialogTitle>
               <DialogDescription>
