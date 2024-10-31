@@ -25,7 +25,23 @@ const Article = () => {
     return filteredArticle;
   }
 
+  const getTreatment =() => {
+    const articleId = queryParams.get('articleId');
+    const partOfBodyId = queryParams.get('partOfBody');
+    const pathologieId = queryParams.get('pathologieId');
+
+    const filteredPartOfBody: PartOfBody | undefined = data.find(({id}) => id == partOfBodyId)
+    const filteredPathologie: Pathologie | undefined = filteredPartOfBody?.pathologies.find(({id}) => id == pathologieId)
+    const filteredArticle: ArticleInterface | undefined = filteredPathologie?.treatment?.find(({id}) => id == articleId)
+
+    return filteredArticle;
+  }
+
   useEffect(() => {
+    if(!getArticle()){
+      setArticle(getTreatment())  
+      return  
+    }
     setArticle(getArticle());
   }, [])
 
