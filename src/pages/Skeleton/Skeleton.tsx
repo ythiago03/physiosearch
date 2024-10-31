@@ -128,11 +128,13 @@ const Skeleton = () => {
                         <div className='model_wrapper'>
                           <h3>Testes</h3>
                           <ul>
-                            <li>
-                              <Link to={"/"}>
-                              <h4>Teste de Lachman<span className="material-symbols-outlined">north_east</span></h4>
+                            {pathology.treatment?.map(article => {
+                              return  <li key={article.id}>
+                              <Link to={`/article?partOfBody=${partOfBody.id}&pathologieId=${pathology.id}&articleId=${article.id}`}>
+                                <h4>{article.title}<span className="material-symbols-outlined">north_east</span></h4>
                               </Link>
                             </li>
+                            })}
                           </ul>
                         </div>
                       </AccordionContent>
