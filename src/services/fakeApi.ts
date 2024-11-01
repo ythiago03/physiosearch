@@ -206,6 +206,90 @@ const data: PartOfBody[] = [
         articles: [
           {
             id: "CJFoqE",
+            title: "Avaliação clínica de lesões agudas por entorse lateral do tornozelo (ROAST): declaração de consenso de 2019 e recomendações da International",
+            timeOfRead: 2,
+            dateOfPublication: "09/06/2018",
+            link: "https://bjsm.bmj.com/content/52/20/1304",
+            resume: [
+              {
+                paragraph: 0,
+                title: "Resumo",
+                content: "A lesão por entorse lateral do tornozelo é a lesão musculoesquelética mais comum sofrida por indivíduos que participam de esportes e atividades físicas recreativas. Após a lesão inicial, uma alta proporção de indivíduos desenvolve sintomas associados à lesão de longo prazo e instabilidade crônica do tornozelo. O desenvolvimento de instabilidade crônica do tornozelo é consequente à interação de insuficiências/deficiências mecânicas e sensório-motoras que se manifestam após lesão aguda por entorse lateral do tornozelo. Para reduzir a propensão ao desenvolvimento de instabilidade crônica do tornozelo, as avaliações clínicas devem avaliar se os pacientes na fase aguda após lesão por entorse lateral do tornozelo apresentam quaisquer deficiências mecânicas e/ou sensório-motoras. Este estudo  Delphi modificado foi realizado sob os auspícios do comitê executivo do International Ankle Consortium. O objetivo principal era desenvolver recomendações, com base no consenso de especialistas (n=14), para avaliação clínica estruturada de lesões agudas por entorse lateral do tornozelo. Após duas rodadas Delphi modificadas, foi alcançado um consenso sobre a avaliação clínica de lesões agudas por entorse lateral do tornozelo. Foi alcançado um consenso sobre uma avaliação diagnóstica clínica padrão mínima. Os principais componentes desta avaliação diagnóstica clínica incluem: estabelecer o mecanismo da lesão, bem como a avaliação dos ossos e ligamentos da articulação do tornozelo. Por meio de consenso, o painel de especialistas também desenvolveu o International Ankle Consortium Rehabilitation-Oriented ASsessmenT (ROAST). O ROAST do International Ankle Consortium ajudará os clínicos a identificar deficiências mecânicas e/ou sensório-motoras associadas à instabilidade crônica do tornozelo. Esta declaração de consenso do International Ankle Consortium visa ser um recurso essencial para clínicos que avaliam regularmente indivíduos com lesões agudas de entorse lateral do tornozelo."  
+              }
+            ]
+          },
+          {
+            id: "8g71Cd",
+            title: "Avaliação e diferenciação da instabilidade do tornozelo",
+            timeOfRead: 2,
+            dateOfPublication: "04/06/2019",
+            link: "https://meridian.allenpress.com/jat/article/54/6/617/420891/Evaluating-and-Differentiating-Ankle-Instability?searchresult=1",
+            resume: [
+              {
+                paragraph: 0,
+                title: "Resumo",
+                content: "Dada a prevalência de entorses laterais do tornozelo durante a atividade física e a alta taxa de novas lesões e instabilidade crônica do tornozelo, os clínicos devem estar cientes da necessidade de expandir a avaliação da instabilidade do tornozelo além do ponto de tempo agudo. As avaliações físicas do tornozelo lesionado devem ser semelhantes, independentemente de ser a entorse lateral inicial do tornozelo ou se o paciente sofreu múltiplas entorses. Até este ponto, um histórico completo de lesões do tornozelo afetado fornece informações importantes durante o exame clínico. O exame físico deve avaliar as articulações talocrurais e subtalares, e os clínicos devem estar cientes de ferramentas de diagnóstico eficazes que fornecem informações sobre o estado das estruturas lesionadas. À medida que os pacientes progridem para as fases subaguda e de retorno à atividade após a lesão, avaliações abrangentes da instabilidade do complexo lateral do tornozelo identificarão qualquer doença e déficits de resultados orientados ao paciente que se assemelham à instabilidade crônica do tornozelo, que devem ser abordados com intervenções apropriadas para minimizar o risco de desenvolver instabilidade recorrente do tornozelo a longo prazo."  
+              }
+            ]
+          }
+        ],
+        treatment: [
+          {
+            id: "de5Oj7",
+            title: "Physical Therapy After an Ankle Sprain",
+            timeOfRead: 2,
+            dateOfPublication: "31/03/2021",
+            link: "https://www.jospt.org/doi/10.2519/jospt.2021.0503",
+            resume: [
+              {
+                paragraph: 0,
+                title: "Abstract",
+                content: "The revised clinical practice guideline (CPG) on ankle sprain, published in the April 2021 issue of the JOSPT, addresses issues related to both a first-time lateral ankle sprain and chronic ankle instability (CAI).3 Following the acute injury period (lasting 1-2 weeks), a postacute period of impairment can last up to 12 months. Some people do not fully recover from lateral ankle sprain and develop CAI. The 2013 CPG4 reported that the prevalence of CAI varied from 0% to 73%. A recent longitudinal study found that 40% of people may develop CAI.1 Perceived instability or episodic “giving way” of the ankle that persists beyond 12 months following the initial injury and results in activity limitation and participation restriction is the hallmark of CAI.2 People with CAI may have a varying amount of mechanical instability, functional instability, or elements of both."  
+              }
+            ]
+          },
+          {
+            id: "tNJbdr",
+            title: "Tratamento e prevenção de entorse aguda e recorrente de tornozelo: uma visão geral de revisões sistemáticas com meta-análise",
+            timeOfRead: 3,
+            dateOfPublication: "08/10/2016",
+            link: "https://bjsm.bmj.com/content/51/2/113",
+            resume: [
+              {
+                paragraph: 0,
+                title: "Resumo",
+                content: "Histórico Entorses de tornozelo são altamente prevalentes com alto risco de recorrência. Consequentemente, há um número significativo de relatórios de pesquisa examinando estratégias para tratar e prevenir entorses agudas e recorrentes (também conhecidas como instabilidade crônica do tornozelo (IAC)), com uma proliferação coincidente de artigos de revisão resumindo esses relatórios."  
+              },
+              {
+                paragraph: 1,
+                title: "Objetivo",
+                content: "Fornecer uma visão geral sistemática das revisões sistemáticas que avaliam estratégias de tratamento para entorse aguda de tornozelo e IAC."  
+              },
+              {
+                paragraph: 2,
+                title: "Principais medidas de resultados",
+                content: "Os resultados primários foram incidência de lesões/re-lesões e função."  
+              },
+              {
+                paragraph: 3,
+                title: "Resultados",
+                content: "46 artigos foram incluídos nesta revisão sistemática. As revisões tiveram uma pontuação média de 6,5/11 na ferramenta de avaliação de qualidade AMSTAR. Houve forte evidência para órtese e evidência moderada para treinamento neuromuscular na prevenção da recorrência de uma entorse de tornozelo. Para os resultados combinados de dor, inchaço e função após uma entorse aguda, houve forte evidência para medicamentos anti-inflamatórios não esteroides e mobilização precoce, com evidência moderada apoiando exercícios e técnicas de terapia manual. Houve evidências conflitantes sobre a eficácia da cirurgia e da acupuntura para o tratamento de entorses agudas de tornozelo. Não houve evidências suficientes para apoiar o uso de ultrassom no tratamento de entorses agudas de tornozelo."  
+              },
+              {
+                paragraph: 4,
+                title: "Conclusões",
+                content: "Para o tratamento de entorse aguda de tornozelo, há fortes evidências para medicamentos anti-inflamatórios não esteroides e mobilização precoce, com evidências moderadas apoiando exercícios e técnicas de terapia manual para dor, inchaço e função. Terapia por exercícios e órteses são úteis na prevenção de IAC."  
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: "5kcpbf",
+        name: "Fascite plantar",
+        articles: [
+          {
+            id: "OaLnfU",
             title: "Entorse de Tornozelo",
             timeOfRead: 2,
             dateOfPublication: "10/10/2024",
@@ -220,6 +304,22 @@ const data: PartOfBody[] = [
                 paragraph: 1,
                 title: "Título 2",
                 content: "Lorem ipsum sillor dollor amet."  
+              }
+            ]
+          }
+        ],
+        treatment: [
+          {
+            id: "o721rC",
+            title: "Dor no Calcanhar – Fascite Plantar: Revisão 2023",
+            timeOfRead: 2,
+            dateOfPublication: "01/12/2023",
+            link: "https://www.jospt.org/doi/10.2519/jospt.2023.0303",
+            resume: [
+              {
+                paragraph: 0,
+                title: "Resumo",
+                content: "A Seção Ortopédica da Associação Americana de Fisioterapia (APTA) tem um esforço contínuo para criar diretrizes de prática baseadas em evidências para o gerenciamento de fisioterapia ortopédica de pacientes com deficiências musculoesqueléticas descritas na Classificação Internacional de Funcionalidade, Incapacidade e Saúde (ICF) da Organização Mundial da Saúde. O objetivo dessas diretrizes de prática clínica revisadas é revisar a literatura recente revisada por pares e fazer recomendações relacionadas à dor não artrítica no calcanhar."  
               }
             ]
           }
