@@ -20,7 +20,7 @@ const Article = () => {
 
     const filteredPartOfBody: PartOfBody | undefined = data.find(({id}) => id == partOfBodyId)
     const filteredPathologie: Pathologie | undefined = filteredPartOfBody?.pathologies.find(({id}) => id == pathologieId)
-    const filteredArticle: ArticleInterface | undefined = filteredPathologie?.articles.find(({id}) => id == articleId)
+    const filteredArticle: ArticleInterface | undefined = filteredPathologie?.articles?.find(({id}) => id == articleId)
 
     return filteredArticle;
   }

@@ -110,10 +110,11 @@ const Skeleton = () => {
                       return <AccordionItem key={pathology.id} value={pathology.id}>
                       <AccordionTrigger>{pathology.name}</AccordionTrigger>
                       <AccordionContent>
+                        {pathology.articles &&
                         <div className='model_wrapper'>
                           <h3>Artigos</h3>
                           <ul>
-                            {pathology.articles.map(article => {
+                            {pathology.articles?.map(article => {
                               return  <li key={article.id}>
                               <Link to={`/article?partOfBody=${partOfBody.id}&pathologieId=${pathology.id}&articleId=${article.id}`}>
                                 <h4>{article.title}<span className="material-symbols-outlined">north_east</span></h4>
@@ -122,9 +123,11 @@ const Skeleton = () => {
                             })}
                           </ul>
                         </div>
+                        }
                         
                         <Separator className='m-4'/>
   
+                        {pathology.treatment &&
                         <div className='model_wrapper'>
                           <h3>Testes</h3>
                           <ul>
@@ -137,6 +140,7 @@ const Skeleton = () => {
                             })}
                           </ul>
                         </div>
+                        }
                       </AccordionContent>
                     </AccordionItem>
                     })
