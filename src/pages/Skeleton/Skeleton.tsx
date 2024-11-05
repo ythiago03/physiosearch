@@ -1,13 +1,5 @@
 import { Button } from "@/components/ui/button";
 import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
-import {
   Accordion,
   AccordionContent,
   AccordionItem,
@@ -21,6 +13,15 @@ import { useRef, useState } from 'react';
 import skeletonPng from '../../assets/skeleton.png';
 import { Skeleton as SkeletonShadCn } from "@/components/ui/skeleton"
 
+
+import {
+  Drawer,
+  DrawerContent,
+  DrawerDescription,
+  DrawerHeader,
+  DrawerTitle,
+  DrawerTrigger,
+} from "@/components/ui/drawer"
 import './Skeleton.scss';
 
 const Skeleton = () => {
@@ -81,75 +82,76 @@ const Skeleton = () => {
             <img className='skeleton-full' src={skeletonPng} alt="Esqueleto do corpo humano" />
 
             { data.map(partOfBody => {
-              return <Dialog key={partOfBody.id}>
-              <DialogTrigger asChild>
-                <button 
-                  className={partOfBody.areaName.toLowerCase()+'_btn'}
-                  onClick={() => getImage('/assets/'+partOfBody.areaName.toLowerCase()+'.png')}
-                >
-                  <img className={partOfBody.areaName.toLowerCase()} src={'/assets/'+partOfBody.areaName.toLowerCase()+'.png'} alt={'Foto do '+partOfBody.areaName} />
-                </button>
-              </DialogTrigger>
-              <DialogContent className="w-[80%] dialog">
+              return (
+              <Drawer key={partOfBody.id}>
+                <DrawerTrigger  asChild>
+                  <button 
+                    className={partOfBody.areaName.toLowerCase()+'_btn'}
+                    onClick={() => getImage('/assets/'+partOfBody.areaName.toLowerCase()+'.png')}
+                  >
+                    <img className={partOfBody.areaName.toLowerCase()} src={'/assets/'+partOfBody.areaName.toLowerCase()+'.png'} alt={'Foto do '+partOfBody.areaName} />
+                  </button>
+                </DrawerTrigger>
+                <DrawerContent>
 
-                <DialogHeader>
-                  <DialogTitle>{partOfBody.areaName}</DialogTitle>
-                  <DialogDescription>
-                    Clique sobre uma patologia para saber mais detalhes
-                  </DialogDescription>
-                </DialogHeader>
+                  <DrawerHeader>
+                    <DrawerTitle>{partOfBody.areaName}</DrawerTitle>
+                    <DrawerDescription>
+                      Clique sobre uma patologia para saber mais detalhes
+                    </DrawerDescription>
+                  </DrawerHeader>
 
-                { 
-                  isImageLoading && <SkeletonShadCn className="h-[250px] w-[90%] m-auto rounded-xl" />
-                }
-
-                <img className='m-auto w-[80%]' src={'/assets/'+partOfBody.areaName.toLowerCase()+'Detalhado.png'} alt="" />
-                <Accordion type="single" collapsible>
-                  {
-                    partOfBody.pathologies.map(pathology => {
-                      return <AccordionItem key={pathology.id} value={pathology.id}>
-                      <AccordionTrigger>{pathology.name}</AccordionTrigger>
-                      <AccordionContent>
-                        {pathology.articles &&
-                        <div className='model_wrapper'>
-                          <h3>Artigos</h3>
-                          <ul>
-                            {pathology.articles?.map(article => {
-                              return  <li key={article.id}>
-                              <Link to={`/article?partOfBody=${partOfBody.id}&pathologieId=${pathology.id}&articleId=${article.id}`}>
-                                <h4>{article.title}<span className="material-symbols-outlined">north_east</span></h4>
-                              </Link>
-                            </li>
-                            })}
-                          </ul>
-                        </div>
-                        }
-                        
-                        <Separator className='m-4'/>
-  
-                        {pathology.treatment &&
-                        <div className='model_wrapper'>
-                          <h3>Testes</h3>
-                          <ul>
-                            {pathology.treatment?.map(article => {
-                              return  <li key={article.id}>
-                              <Link to={`/article?partOfBody=${partOfBody.id}&pathologieId=${pathology.id}&articleId=${article.id}`}>
-                                <h4>{article.title}<span className="material-symbols-outlined">north_east</span></h4>
-                              </Link>
-                            </li>
-                            })}
-                          </ul>
-                        </div>
-                        }
-                      </AccordionContent>
-                    </AccordionItem>
-                    })
+                  { 
+                    isImageLoading && <SkeletonShadCn className="h-[250px] w-[30%] m-auto rounded-xl" />
                   }
-                </Accordion>
 
-              </DialogContent>
-            </Dialog>
-              
+                  <img className='m-auto w-[30%]' src={'/assets/'+partOfBody.areaName.toLowerCase()+'Detalhado.png'} alt="" />
+                  <Accordion className="p-10" type="single" collapsible>
+                    {
+                      partOfBody.pathologies.map(pathology => {
+                        return <AccordionItem key={pathology.id} value={pathology.id}>
+                        <AccordionTrigger>{pathology.name}</AccordionTrigger>
+                        <AccordionContent>
+                          {pathology.articles &&
+                          <div className='model_wrapper'>
+                            <h3>Artigos</h3>
+                            <ul>
+                              {pathology.articles?.map(article => {
+                                return  <li key={article.id}>
+                                <Link to={`/article?partOfBody=${partOfBody.id}&pathologieId=${pathology.id}&articleId=${article.id}`}>
+                                  <h4>{article.title}<span className="material-symbols-outlined">north_east</span></h4>
+                                </Link>
+                              </li>
+                              })}
+                            </ul>
+                          </div>
+                          }
+                          
+                          <Separator className='m-4'/>
+    
+                          {pathology.treatment &&
+                          <div className='model_wrapper'>
+                            <h3>Testes</h3>
+                            <ul>
+                              {pathology.treatment?.map(article => {
+                                return  <li key={article.id}>
+                                <Link to={`/article?partOfBody=${partOfBody.id}&pathologieId=${pathology.id}&articleId=${article.id}`}>
+                                  <h4>{article.title}<span className="material-symbols-outlined">north_east</span></h4>
+                                </Link>
+                              </li>
+                              })}
+                            </ul>
+                          </div>
+                          }
+                        </AccordionContent>
+                      </AccordionItem>
+                      })
+                    }
+                  </Accordion>
+
+                </DrawerContent>
+              </Drawer>
+            ) 
             })}
 
           </TransformComponent>
