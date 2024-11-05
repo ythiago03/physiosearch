@@ -206,10 +206,10 @@ const data: PartOfBody[] = [
         articles: [
           {
             id: "CJFoqE",
-            title: "Avaliação clínica de lesões agudas por entorse lateral do tornozelo (ROAST): declaração de consenso de 2019 e recomendações da International",
+            title: "Avaliação clínica de lesões agudas por entorse lateral do tornozelo (ROAST): declaração de consenso de 2019 e recomendações da International Consórcio de tornozelo",
             timeOfRead: 2,
             dateOfPublication: "09/06/2018",
-            link: "https://bjsm.bmj.com/content/52/20/1304",
+            link: "https://bjsm.bmj.com/content/bjsports/52/20/1304.full.pdf",
             resume: [
               {
                 paragraph: 0,
@@ -236,15 +236,15 @@ const data: PartOfBody[] = [
         treatment: [
           {
             id: "de5Oj7",
-            title: "Physical Therapy After an Ankle Sprain",
+            title: "Fisioterapia após entorse de tornozelo Usando as evidências para orientar a prática do fisioterapeuta. J Orthop Sports Phys Ther 2021",
             timeOfRead: 2,
             dateOfPublication: "31/03/2021",
             link: "https://www.jospt.org/doi/10.2519/jospt.2021.0503",
             resume: [
               {
                 paragraph: 0,
-                title: "Abstract",
-                content: "The revised clinical practice guideline (CPG) on ankle sprain, published in the April 2021 issue of the JOSPT, addresses issues related to both a first-time lateral ankle sprain and chronic ankle instability (CAI).3 Following the acute injury period (lasting 1-2 weeks), a postacute period of impairment can last up to 12 months. Some people do not fully recover from lateral ankle sprain and develop CAI. The 2013 CPG4 reported that the prevalence of CAI varied from 0% to 73%. A recent longitudinal study found that 40% of people may develop CAI.1 Perceived instability or episodic “giving way” of the ankle that persists beyond 12 months following the initial injury and results in activity limitation and participation restriction is the hallmark of CAI.2 People with CAI may have a varying amount of mechanical instability, functional instability, or elements of both."  
+                title: "Resumo",
+                content: "A diretriz de prática clínica revisada (CPG) sobre entorse de tornozelo, publicado na edição de abril de 2021 da JOSPT, aborda questões relacionadas tanto com a primeira vez entorse lateral do tornozelo e instabilidade crônica do tornozelo (CAI).3 Após o período de lesão aguda (duração 1-2 semanas), um período pós-agudo de comprometimento pode durar até 12 meses. Algumas pessoas não se recuperam totalmente da lesão lateral entorse de tornozelo e desenvolver CAI. O CPG4 de 2013 informou que a prevalência de IAC variou de 0% a 73%. Um recente lon- estudo gitudinal descobriu que 40% das pessoas podem desenvolver CAI.1 Instabilidade percebida ou “cedendo” episódica do tornozelo que persiste além de 12 meses após a lesão inicial e re- resulta em limitação de atividade e restrição de participação é o marca registrada do CAI.2 Pessoas com CAI podem ter uma quantidade variável de instabilidade mecânica, instabilidade funcional ou elementos de ambos."  
               }
             ]
           },
@@ -287,27 +287,7 @@ const data: PartOfBody[] = [
       {
         id: "5kcpbf",
         name: "Fascite plantar",
-        articles: [
-          {
-            id: "OaLnfU",
-            title: "Entorse de Tornozelo",
-            timeOfRead: 2,
-            dateOfPublication: "10/10/2024",
-            link: "https://physiosearch.vercel.app",
-            resume: [
-              {
-                paragraph: 0,
-                title: "Título 1",
-                content: "Lorem ipsum sillor dollor amet."  
-              },
-              {
-                paragraph: 1,
-                title: "Título 2",
-                content: "Lorem ipsum sillor dollor amet."  
-              }
-            ]
-          }
-        ],
+        
         treatment: [
           {
             id: "o721rC",
