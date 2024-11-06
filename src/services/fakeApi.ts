@@ -11,7 +11,7 @@ const data: PartOfBody[] = [
         articles: [
           {
             id: "cDPQS4",
-            title: "Athletic Pubalgia And Associated Rehabilitation",
+            title: "Pubalgia Atlética e Reabilitação Associada",
             timeOfRead: 3,
             dateOfPublication: "09/11/2014",
             link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4223287/",
@@ -19,75 +19,75 @@ const data: PartOfBody[] = [
               {
                 paragraph: 0,
                 title: "Background",
-                content: "Evaluation and treatment of groin pain in athletes is challenging. The anatomy is complex, and multiple pathologies often coexist. Different pathologies may cause similar symptoms, and many systems can refer pain to the groin. Many athletes with groin pain have tried prolonged rest and various treatment regimens, and received differing opinions as to the cause of their pain. The rehabilitation specialist is often given a non-specific referral of “groin pain” or “sports hernia.” The cause of pain could be as simple as the effects of an adductor strain, or as complex as athletic pubalgia or inguinal disruption. The term “sports hernia” is starting to be replaced with more specific terms that better describe the injury. Inguinal disruption is used to describe the syndromes related to the injury of the inguinal canal soft tissue environs ultimately causing the pain syndrome. The term athletic pubalgia is used to describe the disruption and/or separation of the more medial common aponeurosis from the pubis, usually with some degree of adductor tendon pathology."  
+                content: "A avaliação e o tratamento da dor na virilha em atletas são desafiadores. A anatomia é complexa, e várias patologias frequentemente coexistem. Diferentes patologias podem causar sintomas semelhantes, e muitos sistemas podem referir dor à virilha. Muitos atletas com dor na virilha tentaram repouso prolongado e vários regimes de tratamento, e receberam opiniões diferentes quanto à causa de sua dor. O especialista em reabilitação geralmente recebe uma referência não específica de 'dor na virilha' ou 'hérnia esportiva'. A causa da dor pode ser tão simples quanto os efeitos de uma distensão do adutor, ou tão complexa quanto pubalgia atlética ou ruptura inguinal. O termo 'hérnia esportiva' está começando a ser substituído por termos mais específicos que descrevem melhor a lesão. A ruptura inguinal é usada para descrever as síndromes relacionadas à lesão do entorno do tecido mole do canal inguinal, causando, em última análise, a síndrome da dor. O termo pubalgia atlética é usado para descrever a ruptura e/ou separação da aponeurose comum mais medial do púbis, geralmente com algum grau de patologia do tendão adutor."  
               },
               {
                 paragraph: 1,
-                title: "Treatment",
-                content: "Both non-operative and post-operative treatment options share the goal of returning the athlete back to pain free activity. There is little research available to reference for rehabilitation guidelines and creation of a plan of care. Although each surgeon has their own specific set of post-operative guidelines, some common concepts are consistent among most surgeons. Effective rehabilitation of the high level athlete to pain free return to play requires addressing the differences in the biomechanics of the dysfunction when comparing athletic pubalgia and inguinal disruption."  
+                title: "Tratamento",
+                content: "As opções de tratamento não operatório e pós-operatório compartilham o objetivo de retornar o atleta à atividade sem dor. Há pouca pesquisa disponível para referência para diretrizes de reabilitação e criação de um plano de cuidados. Embora cada cirurgião tenha seu próprio conjunto específico de diretrizes pós-operatórias, alguns conceitos comuns são consistentes entre a maioria dos cirurgiões. A reabilitação eficaz do atleta de alto nível para o retorno sem dor ao jogo requer abordar as diferenças na biomecânica da disfunção ao comparar a pubalgia atlética e a ruptura inguinal."  
               },
               {
                 paragraph: 2,
-                title: "Conclusion",
-                content: "Proper evaluation and diagnostic skills for identifying and specifying the difference between athletic pubalgia and inguinal disruption allows for an excellent and efficient rehabilitative plan of care. Progression through the rehabilitative stages whether non-operative or post-operative allows for a focused rehabilitative program. As more information is obtained through MRI imaging and the diagnosis and treatment of inguinal disruption and athletic pubalgia becomes increasingly frequent, more research is war- ranted in this field to better improve the evidence based practice and rehabilitation of patients."  
+                title: "Conclusão",
+                content: "Avaliação adequada e habilidades de diagnóstico para identificar e especificar a diferença entre pubalgia atlética e ruptura inguinal permitem um plano de tratamento de reabilitação excelente e eficiente. A progressão através dos estágios de reabilitação, seja não operatório ou pós-operatório, permite um programa de reabilitação focado. À medida que mais informações são obtidas por meio de imagens de ressonância magnética e o diagnóstico e tratamento de ruptura inguinal e pubalgia atlética se tornam cada vez mais frequentes, mais pesquisas são necessárias neste campo para melhorar melhor a prática baseada em evidências e a reabilitação de pacientes."  
               }
             ]
           },
           {
             id: "kBFLfT",
-            title: "Proposed Algorithm for the Management of Athletes With Athletic Pubalgia (Sports Hernia): A Case Series",
+            title: "Algoritmo proposto para o tratamento de atletas com pubalgia atlética (hérnia esportiva): uma série de casos",
             timeOfRead: 4,
             dateOfPublication: "01/12/2008",
             link: "https://www.jospt.org/doi/10.2519/jospt.2008.2846",
             resume: [
               {
                 paragraph: 0,
-                title: "Study Design",
-                content: "A case series of 6 athletes with a suspected sports hernia."  
+                title: "Desenho do estudo",
+                content: "Série de casos de 6 atletas com suspeita de hérnia esportiva."  
               },
               {
                 paragraph: 1,
                 title: "Background",
-                content: "Groin pain in athletes is common, and 1 source of groin pain is athletic pubalgia, or a sports hernia. Description of this condition and its management is scarce in the physical therapy literature. The purpose of this case series is to describe a conservative approach to treating athletes with a likely sports hernia and to provide physical therapists with an algorithm for managing athletes with this dysfunction."  
+                content: "Dor na virilha em atletas é comum, e uma fonte de dor na virilha é a pubalgia atlética, ou uma hérnia esportiva. A descrição dessa condição e seu tratamento são escassos na literatura de fisioterapia. O objetivo desta série de casos é descrever uma abordagem conservadora para tratar atletas com uma provável hérnia esportiva e fornecer aos fisioterapeutas um algoritmo para tratar atletas com essa disfunção."  
               },
               {
                 paragraph: 2,
-                title: "Case Description",
-                content: "Six collegiate athletes (age range, 19–22 years; 4 males, 2 females) with a physician diagnosis of groin pain secondary to possible/probable sports hernia were referred to physical therapy. A method of evaluation was constructed and a cluster of 5 key findings indicative of a sports hernia is presented. The athletes were managed according to a proposed algorithm and received physical therapy consisting of soft tissue and joint mobilization/manipulation, neuromuscular re-education, manual stretching, and therapeutic exercise."  
+                title: "Descrição do caso",
+                content: "Seis atletas universitários (faixa etária de 19 a 22 anos; 4 homens, 2 mulheres) com diagnóstico médico de dor na virilha secundária a possível/provável hérnia esportiva foram encaminhados para fisioterapia. Um método de avaliação foi construído e um conjunto de 5 achados principais indicativos de uma hérnia esportiva é apresentado. Os atletas foram gerenciados de acordo com um algoritmo proposto e receberam fisioterapia consistindo em mobilização/manipulação de tecidos moles e articulações, reeducação neuromuscular, alongamento manual e exercícios terapêuticos."  
               },
               {
                 paragraph: 3,
-                title: "Outcomes",
-                content: "Three of the athletes received conservative intervention and were able to fully return to sport after a mean of 7.7 sessions of physical therapy. The other 3 athletes reached this outcome after surgical repair and a mean of 6.7sessions of physical therapy."  
+                title: "Resultados",
+                content: "Três atletas receberam intervenção conservadora e conseguiram retornar totalmente ao esporte após uma média de 7,7 sessões de fisioterapia. Os outros 3 atletas atingiram esse resultado após reparo cirúrgico e uma média de 6,7 sessões de fisioterapia."  
               },
               {
                 paragraph: 4,
-                title: "Discussion",
-                content: "Conservative management including manual therapy appears to be a viable option in the management of athletes with a sports hernia. Follow-up randomized clinical trials should be performed to further investigate the effectiveness of conservative rehabilitation compared to a homogeneous group of patients undergoing surgical repair for this condition."  
+                title: "Discussão",
+                content: "O tratamento conservador, incluindo terapia manual, parece ser uma opção viável no tratamento de atletas com hérnia esportiva. Ensaios clínicos randomizados de acompanhamento devem ser realizados para investigar melhor a eficácia da reabilitação conservadora em comparação a um grupo homogêneo de pacientes submetidos a reparo cirúrgico para essa condição."  
               }
             ]
           },
           {
             id: "d4AqgG",
-            title: "Rehabilitation Protocol for Athletic Pubalgia (Non-Operative)",
+            title: "Protocolo de Reabilitação para Pubalgia Atlética (Não Operatório)",
             timeOfRead: 2,
             dateOfPublication: "00/00/0000",
             link: "https://www.massgeneral.org/assets/mgh/pdf/orthopaedics/sports-medicine/physical-therapy/rehabilitation-protocol-for-athletic-pubalgia-non-operative-management.pdf",
             resume: [
               {
                 paragraph: 0,
-                title: "Abstract",
-                content: "This protocol is intended to guide clinicians through the non-operative course for groin pain in athletes. This protocol is criterion based. Specific intervention should be based on the needs of the individual and should consider exam findings and clinical decision making. The timeframes for expected outcomes contained within this guideline may vary based on surgeon’s preference, additional procedures performed, and/or complications. If a clinician requires assistance in the progression of a non-operative patient, they should consult with the referring physician. The interventions included within this protocol are not intended to be an inclusive list of exercises. Therapeutic interventions should be included and modified based on the progress of the patient and under the discretion of the clinician."  
+                title: "Resumo",
+                content: "Este protocolo tem como objetivo orientar os clínicos no curso não operatório para dor na virilha em atletas. Este protocolo é baseado em critérios. A intervenção específica deve ser baseada nas necessidades do indivíduo e deve considerar os achados do exame e a tomada de decisão clínica. Os prazos para os resultados esperados contidos nesta diretriz podem variar com base na preferência do cirurgião, procedimentos adicionais realizados e/ou complicações. Se um clínico precisar de assistência na progressão de um paciente não operatório, ele deve consultar o médico de referência. As intervenções incluídas neste protocolo não pretendem ser uma lista inclusiva de exercícios. As intervenções terapêuticas devem ser incluídas e modificadas com base no progresso do paciente e a critério do clínico."  
               },
               {
                 paragraph: 1,
-                title: "Considerations for the non-operative treatment of groin pain in athletes",
-                content: "Many different factors influence the non-operative treatment for groin pain in athlete’s rehabilitation outcomes, including a prior history of groin pain, severity of injury and number of structures injured (adductor related, inguinal related, pubic related or hip related). Therefore, this protocol will be criteria based and not time based as healing times can vary. It is recommended that clinicians collaborate closely with the referring physician regarding the above."  
+                title: "Considerações para o tratamento não operatório da dor na virilha em atletas",
+                content: "Muitos fatores diferentes influenciam o tratamento não operatório para dor na virilha nos resultados de reabilitação do atleta, incluindo histórico prévio de dor na virilha, gravidade da lesão e número de estruturas lesionadas (relacionadas ao adutor, inguinal, púbica ou do quadril). Portanto, este protocolo será baseado em critérios e não em tempo, pois os tempos de cura podem variar. É recomendado que os clínicos colaborem estreitamente com o médico de referência em relação ao acima."  
               },
               {
                 paragraph: 2,
-                title: "Differential Diagnosis",
-                content: "Groin pain in athlete’s is common problem that is known for its complexities due to the numerous structures that may be injured. Due to the number of potential structures injured, numerous terms have been used with varying interpretations. In fact, there are 33 different diagnostic terms used in the literature to describe groin pain in an athlete. In 2015 the DOHA agreement was a meeting that attempted to determine a standard terminology for this injury. They agreed groin pain in athletes is the preferred umbrella term with 3 subgroups (groin pain, hip joint related and other) outlined below. This protocol will focus treatment on the groin pain subgroup in athletes with groin pain."  
+                title: "Diagnóstico diferencial",
+                content: "Dor na virilha em atletas é um problema comum que é conhecido por suas complexidades devido às inúmeras estruturas que podem ser lesionadas. Devido ao número de estruturas potenciais lesionadas, vários termos têm sido usados ​​com interpretações variadas. Na verdade, há 33 termos diagnósticos diferentes usados ​​na literatura para descrever dor na virilha em um atleta. Em 2015, o acordo DOHA foi uma reunião que tentou determinar uma terminologia padrão para essa lesão. Eles concordaram que dor na virilha em atletas é o termo genérico preferido com 3 subgrupos (dor na virilha, relacionada à articulação do quadril e outros) descritos abaixo. Este protocolo focará o tratamento no subgrupo de dor na virilha em atletas com dor na virilha."  
               }
             ]
           }
@@ -99,83 +99,83 @@ const data: PartOfBody[] = [
         articles: [
           {
             id: "MdoSR6",
-            title: "Personalised Hip Therapy: development of a non-operative protocol to treat femoroacetabular impingement syndrome in the FASHIoN randomised controlled trial",
+            title: "Terapia personalizada do quadril: desenvolvimento de um protocolo não operatório para tratar a síndrome do impacto femoroacetabular no ensaio clínico randomizado controlado FASHIoN",
             timeOfRead: 2,
             dateOfPublication: "09/07/2016",
             link: "https://bjsm.bmj.com/content/50/19/1217",
             resume: [
               {
                 paragraph: 0,
-                title: "Introduction",
-                content: "Femoroacetabular impingement (FAI) syndrome is increasingly recognised as a cause of hip pain. As part of the design of a randomised controlled trial (RCT) of arthroscopic surgery for FAI syndrome, we developed a protocol for non-operative care and evaluated its feasibility."  
+                title: "Introdução",
+                content: "A síndrome do impacto femoroacetabular (FAI) é cada vez mais reconhecida como uma causa de dor no quadril. Como parte do desenho de um ensaio clínico randomizado (RCT) de cirurgia artroscópica para síndrome do FAI, desenvolvemos um protocolo para tratamento não operatório e avaliamos sua viabilidade."  
               },
               {
                 paragraph: 1,
-                title: "Methods",
-                content: "In phase one, we developed a protocol for non-operative care for FAI in the UK National Health Service (NHS), through a process of systematic review and consensus gathering. In phase two, the protocol was tested in an internal pilot RCT for protocol adherence and adverse events."  
+                title: "Métodos",
+                content: "Na fase um, desenvolvemos um protocolo para tratamento não operatório para FAI no Serviço Nacional de Saúde do Reino Unido (NHS), por meio de um processo de revisão sistemática e coleta de consenso. Na fase dois, o protocolo foi testado em um RCT piloto interno para adesão ao protocolo e eventos adversos."  
               },
               {
                 paragraph: 2,
-                title: "Results",
-                content: "The final protocol, called Personalised Hip Therapy (PHT), consists of four core components led by physiotherapists: detailed patient assessment, education and advice, help with pain relief and an exercise-based programme that is individualised, supervised and progressed over time. PHT is delivered over 12–26 weeks in 6–10 physiotherapist-patient contacts, supplemented by a home exercise programme. In the pilot RCT, 42 patients were recruited and 21 randomised to PHT. Review of treatment case report forms, completed by physiotherapists, showed that 13 patients (62%) received treatment that had closely followed the PHT protocol. 13 patients reported some muscle soreness at 6 weeks, but there were no serious adverse events."  
+                title: "Resultados",
+                content: "O protocolo final, chamado Terapia Personalizada do Quadril (PHT), consiste em quatro componentes principais liderados por fisioterapeutas: avaliação detalhada do paciente, educação e aconselhamento, ajuda com o alívio da dor e um programa baseado em exercícios que é individualizado, supervisionado e progredido ao longo do tempo. A PHT é fornecida ao longo de 12 a 26 semanas em 6 a 10 contatos fisioterapeuta-paciente, complementados por um programa de exercícios em casa. No RCT piloto, 42 pacientes foram recrutados e 21 randomizados para PHT. A revisão dos formulários de relatórios de casos de tratamento, preenchidos por fisioterapeutas, mostrou que 13 pacientes (62%) receberam tratamento que seguiu de perto o protocolo PHT. 13 pacientes relataram alguma dor muscular em 6 semanas, mas não houve eventos adversos graves."  
               },
               {
                 paragraph: 3,
-                title: "Conclusion",
-                content: "PHT provides a structure for the non-operative care of FAI and offers guidance to clinicians and researchers in an evolving area with limited evidence. PHT was deliverable within the National Health Service, is safe, and now forms the comparator to arthroscopic surgery in the UK FASHIoN trial (ISRCTN64081839)."  
+                title: "Conclusão",
+                content: "O PHT fornece uma estrutura para o tratamento não operatório de FAI e oferece orientação a clínicos e pesquisadores em uma área em evolução com evidências limitadas. O PHT era entregue dentro do National Health Service, é seguro e agora constitui o comparador para cirurgia artroscópica no ensaio FASHIoN do Reino Unido (ISRCTN64081839)."  
               }
             ]
           },
           {
             id: "o75elI",
-            title: "The 2019 International Society of Hip Preservation(ISHA) physiotherapy agreement on assessment and treatment of femoroacetabular impingement syndrome (FAIS): an international consensus statement",
+            title: "Acordo de fisioterapia da Sociedade Internacional de Preservação do Quadril (ISHA) de 2019 sobre avaliação e tratamento da síndrome do impacto femoroacetabular (FAIS): uma declaração de consenso internacional",
             timeOfRead: 2,
             dateOfPublication: "19/03/2021",
             link: "https://pubmed.ncbi.nlm.nih.gov/34377507/",
             resume: [
               {
                 paragraph: 0,
-                title: "Abstract",
-                content: "The 2019 International Society of Hip Preservation (ISHA) physiotherapy agreement on femoroacetabular impingement syndrome (FAIS) was intended to build an international physiotherapy consensus on the assessment, non-surgical physiotherapy treatment, pre-/post-operative management, and return to sport decisions for those patients with FAIS. The panel consisted of 11 physiotherapists and 8 orthopaedic surgeons. There is limited evidence regarding the use of physiotherapy in the overall management of those with FAIS. Therefore, a group of ISHA member physiotherapists, who treat large numbers of FAIS patients and have extensive experience in this area, constructed a consensus statement to guide physiotherapy-related decisions in the overall management of those with FAIS. The consensus was conducted using a modified Delphi technique. Six major topics were the focus of the consensus statement: (i) hip assessment, (ii) non-surgical physiotherapy management, (iii) pre-habilitation prior to hip arthroscopy, (iv) post-operative physiotherapy rehabilitation, (v) stages of post-operative rehabilitation and (vi) return to sports criteria/guidelines after surgery."  
+                title: "Resumo",
+                content: "O acordo de fisioterapia da International Society of Hip Preservation (ISHA) de 2019 sobre a síndrome do impacto femoroacetabular (FAIS) teve como objetivo construir um consenso internacional de fisioterapia sobre a avaliação, tratamento fisioterapêutico não cirúrgico, manejo pré/pós-operatório e decisões de retorno ao esporte para pacientes com FAIS. O painel consistiu de 11 fisioterapeutas e 8 cirurgiões ortopédicos. Há evidências limitadas sobre o uso da fisioterapia no manejo geral daqueles com FAIS. Portanto, um grupo de fisioterapeutas membros da ISHA, que tratam um grande número de pacientes com FAIS e têm ampla experiência nessa área, construíram uma declaração de consenso para orientar decisões relacionadas à fisioterapia no manejo geral daqueles com FAIS. O consenso foi conduzido usando uma técnica Delphi modificada. Seis tópicos principais foram o foco da declaração de consenso: (i) avaliação do quadril, (ii) tratamento fisioterapêutico não cirúrgico, (iii) pré-habilitação antes da artroscopia do quadril, (iv) reabilitação fisioterapêutica pós-operatória, (v) estágios da reabilitação pós-operatória e (vi) critérios/diretrizes de retorno aos esportes após a cirurgia."  
               }
             ]
           },
           {
             id: "hMZd91",
-            title: "The Physiotherapy for Femoroacetabular Impingement Rehabilitation Study (physioFIRST): A Pilot Randomized Controlled Trial",
+            title: "Estudo de Fisioterapia para Reabilitação do Impacto Femoroacetabular (physioFIRST): Um Ensaio Piloto Randomizado Controlado",
             timeOfRead: 4,
             dateOfPublication: "31/03/2018",
             link: "https://www.jospt.org/doi/10.2519/jospt.2018.7941",
             resume: [
               {
                 paragraph: 0,
-                title: "Study Design",
-                content: "A pilot double-blind randomized controlled trial (RCT)."  
+                title: "Desenho do estudo",
+                content: "Um ensaio clínico controlado randomizado (ECR) duplo-cego piloto."  
               },
               {
                 paragraph: 1,
                 title: "Background",
-                content: "The effectiveness of physical therapy for femoroacetabular impingement syndrome (FAIS) is unknown."  
+                content: "A eficácia da fisioterapia para a síndrome do impacto femoroacetabular (FAIS) é desconhecida."  
               },
               {
                 paragraph: 2,
-                title: "Objectives",
-                content: "To determine the feasibility of an RCT investigating the effectiveness of a physical therapy intervention for FAIS."  
+                title: "Objetivos",
+                content: "Determinar a viabilidade de um ECR investigando a eficácia de uma intervenção de fisioterapia para FAIS."  
               },
               {
                 paragraph: 3,
-                title: "Methods",
-                content: "Participants were 17 women and 7 men (mean ± SD age, 37 ± 8 years; body mass index, 25.4 ± 3.4 kg/m2) with FAIS who received physical therapy interventions provided over 12 weeks. The FAIS-specific physical therapy group received personalized progressive strengthening and functional retraining. The control group received standardized stretching exercises. In addition, both groups received manual therapy, progressive physical activity, and education. The primary outcome was feasibility, including integrity of the protocol, recruitment and retention, outcome measures, randomization procedure, and sample-size estimate. Secondary outcomes included hip pain and function (international Hip Outcome Tool-33 [iHOT-33]) and hip muscle strength. Poststudy interviews were conducted to determine potential improvements for future studies."  
+                title: "Métodos",
+                content: "Os participantes foram 17 mulheres e 7 homens (idade média ± DP, 37 ± 8 anos; índice de massa corporal, 25,4 ± 3,4 kg/m2) com FAIS que receberam intervenções de fisioterapia fornecidas ao longo de 12 semanas. O grupo de fisioterapia específico para FAIS recebeu fortalecimento progressivo personalizado e retreinamento funcional. O grupo de controle recebeu exercícios de alongamento padronizados. Além disso, ambos os grupos receberam terapia manual, atividade física progressiva e educação. O desfecho primário foi a viabilidade, incluindo integridade do protocolo, recrutamento e retenção, medidas de desfecho, procedimento de randomização e estimativa do tamanho da amostra. Os desfechos secundários incluíram dor e função do quadril (International Hip Outcome Tool-33 [iHOT-33]) e força muscular do quadril. Entrevistas pós-estudo foram conduzidas para determinar potenciais melhorias para estudos futuros."  
               },
               {
                 paragraph: 4,
-                title: "Results",
-                content: "Twenty-four (100%) patients with known eligibility agreed to participate. Four patients (17%) were lost to follow-up. All participants and the tester remained blinded, and the control intervention was acceptable to participants. The between-group mean differences in change scores were 16 (95% confidence interval [CI]: −9, 38) for the iHOT-33 and 0.24 (95% CI: 0.02, 0.47) Nm/kg for hip adduction strength, favoring the FAIS-specific physical therapy group. Using an effect size of 0.61, between-group improvements for the iHOT-33 suggest that 144 participants are required for a full-scale RCT."  
+                title: "Resultados",
+                content: "Vinte e quatro (100%) pacientes com elegibilidade conhecida concordaram em participar. Quatro pacientes (17%) foram perdidos no acompanhamento. Todos os participantes e o testador permaneceram cegos, e a intervenção de controle foi aceitável para os participantes. As diferenças médias entre os grupos nas pontuações de mudança foram de 16 (intervalo de confiança [IC] de 95%: −9, 38) para o iHOT-33 e 0,24 (IC de 95%: 0,02, 0,47) Nm/kg para força de adução do quadril, favorecendo o grupo de fisioterapia específico para FAIS. Usando um tamanho de efeito de 0,61, as melhorias entre os grupos para o iHOT-33 sugerem que 144 participantes são necessários para um RCT em grande escala."  
               },
               {
                 paragraph: 5,
-                title: "Conclusion",
-                content: "A full-scale RCT of physical therapy for FAIS is feasible. A FAIS-specific physical therapy program has the potential for a moderate to large positive effect on hip pain, function, and hip adductor strength."  
+                title: "Conclusão",
+                content: "Um RCT completo de fisioterapia para FAIS é viável. Um programa de fisioterapia específico para FAIS tem o potencial de um efeito positivo moderado a grande na dor do quadril, função e força do adutor do quadril."  
               }
             ]
           }
@@ -193,25 +193,25 @@ const data: PartOfBody[] = [
         articles: [
           {
             id: "X9aK81",
-            title: "Physical Examination and Patellofemoral Pain Syndrome: an Updated Review",
+            title: "Exame físico e síndrome da dor patelofemoral: uma revisão atualizada",
             timeOfRead: 3,
             dateOfPublication: "29/10/2021",
             link: "https://link.springer.com/article/10.1007/s12178-021-09730-7",
             resume: [
               {
                 paragraph: 0,
-                title: "Purpose of Review",
-                content: "Patellofemoral pain syndrome (PFPS) accounts for 25 to 40% of all knee disorders. Diagnosis of PFPS is primarily based on history and physical examination, but the findings on physical examination are often subtle and do not consistently correlate with symptoms described. Yoon and Fredericson published a review article in 2006 detailing the physical examination maneuvers most frequently used to assist clinicians in the accurate diagnosis and treatment of PFPS, and our aim in this review is to provide an update on this previous article focusing on the literature published over the past 15 years regarding the topic."  
+                title: "Objetivo da revisão",
+                content: "A síndrome da dor patelofemoral (PFPS) é responsável por 25 a 40% de todos os distúrbios do joelho. O diagnóstico da PFPS é baseado principalmente na história e no exame físico, mas os achados no exame físico são frequentemente sutis e não se correlacionam consistentemente com os sintomas descritos. Yoon e Fredericson publicaram um artigo de revisão em 2006 detalhando as manobras de exame físico mais frequentemente usadas para auxiliar os clínicos no diagnóstico e tratamento precisos da PFPS, e nosso objetivo nesta revisão é fornecer uma atualização sobre este artigo anterior com foco na literatura publicada nos últimos 15 anos sobre o tópico."  
               },
               {
                 paragraph: 1,
-                title: "Recent Findings",
-                content: "Since publication of Fredericson’s original review article, there have been studies building on the literature specifically surrounding Q angle, patellar tilt, crepitus, strength and functional testing, and physical examination maneuver clustering. Additionally, multiple studies have been conducted on the use of musculoskeletal ultrasound (US) as a diagnostic tool for PFPS."  
+                title: "Descobertas recentes",
+                content: "Desde a publicação do artigo de revisão original de Fredericson, houve estudos baseados na literatura especificamente em torno do ângulo Q, inclinação patelar, crepitação, teste de força e funcional e agrupamento de manobras de exame físico. Além disso, vários estudos foram conduzidos sobre o uso de ultrassom musculoesquelético (US) como uma ferramenta de diagnóstico para PFPS."  
               },
               {
                 paragraph: 2,
-                title: "Summary",
-                content: "Recent literature has further supported Q angle (when measured utilizing a standardized protocol), crepitus, weakness of hip abductorsandextensors,andweaknessdetectedin functionaltestingaspredictorsofPFPSwhile findinginconsistentevidencebehindlateral patellar tilt as a predictor of PFPS. The reliability of most physical examination tests alone remain low, but clustering physical examination findings may provide better sensitivities and specificities in diagnosing PFPS. Musculoskeletal US is rapidly gaining popularity, and decreased vastus medialis obliquus (VMO) volume, asymmetry in gluteus medius thickness, intra-articular effusions, and quadriceps andpatellartendonthicknesseshave shown valuein diagnosingthosewithPFPS.Additionally,US hastheadvantageof providingdynamic examination as well as evaluation of the patellofemoral joint in newborns and infants as a predictor of future patellofemoral instability. Further studies are needed to establish the gold standard for diagnosing PFPS and what US findings are truly predictive of PFPS."  
+                title: "Resumo",
+                content: "A literatura recente tem apoiado ainda mais o ângulo Q (quando medido utilizando um protocolo padronizado), crepitação, fraqueza dos abdutores e extensores do quadril e fraqueza detectada em testes funcionais como preditores de PFPS, ao mesmo tempo em que encontra evidências inconsistentes por trás da inclinação patelar lateral como um preditor de PFPS. A confiabilidade da maioria dos testes de exame físico por si só permanece baixa, mas o agrupamento de achados de exame físico pode fornecer melhores sensibilidades e especificidades no diagnóstico de PFPS. O US musculoesquelético está rapidamente ganhando popularidade, e a diminuição do volume do vasto medial oblíquo (VMO), assimetria na espessura do glúteo médio, derrames intra-articulares e espessuras do tendão do quadríceps e patelar têm mostrado valor no diagnóstico daqueles com PFPS. Além disso, o US tem a vantagem de fornecer exame dinâmico, bem como avaliação da articulação patelofemoral em recém-nascidos e bebês como um preditor de instabilidade patelofemoral futura. Mais estudos são necessários para estabelecer o padrão ouro para o diagnóstico de PFPS e quais achados dos EUA são realmente preditivos de PFPS."  
               }
             ]
           },
@@ -219,68 +219,68 @@ const data: PartOfBody[] = [
         treatment:[
           {
             id: "DWnZHq",
-            title: "A Contemporary Approach to Patellofemoral Pain in Runners",
+            title: "Uma abordagem contemporânea à dor patelofemoral em corredores",
             timeOfRead: 2,
             dateOfPublication: "19/11/2020",
             link: "https://meridian.allenpress.com/jat/article/55/12/1206/447918/A-Contemporary-Approach-to-Patellofemoral-Pain-in?searchresult=1",
             resume: [
               {
                 paragraph: 0,
-                title: "Purpose of Review",
-                content: "Patellofemoral pain (PFP) is among the most common injuries in recreational runners. Current evidence does not identify alignment, muscle weakness, and patellar maltracking or a combination of these as causes of PFP. Rather than solely investigating biomechanics, we suggest a holistic approach to address the causes of PFP. Both external loads, such as changes in training parameters and biomechanics, and internal loads, such as sleep and psychological stress, should be considered. As for the management of runners with PFP, recent research suggested that various interventions can be considered to help symptoms, even if these interventions target biomechanical factors that may not have caused the injury in the first place. In this Current Concepts article, we describe how the latest evidence on education about training modifications, strengthening exercises, gait and footwear modifications, and psychosocial factors can be applied when treating runners with PFP. The importance of maintaining relative homeostasis between load and capacity will be emphasized. Recommendations for temporary or longer-term interventions will be discussed. A holistic, evidence-based approach should consist of a graded exposure to load, including movement, exercise, and running, while considering the capacity of the individual, including sleep and psychosocial factors. Cost, accessibility, and the personal preferences of patients should also be considered."  
+                title: "Objetivo da revisão",
+                content: "Dor patelofemoral (DFP) está entre as lesões mais comuns em corredores recreativos. As evidências atuais não identificam alinhamento, fraqueza muscular e desalinhamento patelar ou uma combinação destes como causas de DFP. Em vez de investigar apenas a biomecânica, sugerimos uma abordagem holística para abordar as causas de DFP. Tanto cargas externas, como mudanças nos parâmetros de treinamento e biomecânica, quanto cargas internas, como sono e estresse psicológico, devem ser consideradas. Quanto ao tratamento de corredores com DFP, pesquisas recentes sugeriram que várias intervenções podem ser consideradas para ajudar nos sintomas, mesmo que essas intervenções visem fatores biomecânicos que podem não ter causado a lesão em primeiro lugar. Neste artigo da Current Concepts, descrevemos como as evidências mais recentes sobre educação sobre modificações de treinamento, exercícios de fortalecimento, modificações de marcha e calçados e fatores psicossociais podem ser aplicadas ao tratar corredores com DFP. A importância de manter a homeostase relativa entre carga e capacidade será enfatizada. Recomendações para intervenções temporárias ou de longo prazo serão discutidas. Uma abordagem holística e baseada em evidências deve consistir em uma exposição graduada à carga, incluindo movimento, exercício e corrida, ao mesmo tempo em que considera a capacidade do indivíduo, incluindo sono e fatores psicossociais. Custo, acessibilidade e as preferências pessoais dos pacientes também devem ser considerados."  
               }, 
             ]
           },
           {
             id: "IFwHYE",
-            title: "A Systematic Review of Clinical Practice Guidelines for Physical Therapist Management of Patellofemoral Pain",
+            title: "Uma revisão sistemática das diretrizes de prática clínica para o tratamento da dor patelofemoral por fisioterapeutas",
             timeOfRead: 3,
             dateOfPublication: "03/02/2021",
             link: "https://academic.oup.com/ptj/article/101/3/pzab021/6106268",
             resume: [
               {
                 paragraph: 0,
-                title: "Objective",
-                content: "The purpose of this study was to conduct a systematic review to evaluate clinical practice guidelines for the physical therapist management of patellofemoral pain."  
+                title: "Objetivo",
+                content: "O objetivo deste estudo foi conduzir uma revisão sistemática para avaliar as diretrizes de prática clínica para o tratamento da dor patelofemoral por fisioterapeutas."  
               },
               {
                 paragraph: 1,
-                title: "Methods",
-                content: "Five electronic databases (CINAHL, Embase, Medline, Psychinfo, Cochrane Library) were searched from January 2013 to October 2019. Additional search methods included searching websites that publish clinical practice guidelines containing recommendations for physical therapist management of patellofemoral pain. Characteristics of the guidelines were extracted, including recommendations for examination, interventions, and evaluation applicable to physical therapist practice. Quality assessment was conducted using the Appraisal of Guidelines for Research and Evaluation (AGREE) II instrument, applicability of recommendations to physical therapist practice was examined using the AGREE Recommendation Excellence instrument, and convergence of recommendations across guidelines was assessed."  
+                title: "Métodos",
+                content: "Cinco bancos de dados eletrônicos (CINAHL, Embase, Medline, Psychinfo, Cochrane Library) foram pesquisados ​​de janeiro de 2013 a outubro de 2019. Métodos de pesquisa adicionais incluíram a busca em sites que publicam diretrizes de prática clínica contendo recomendações para o tratamento de dor patelofemoral por fisioterapeutas. Características das diretrizes foram extraídas, incluindo recomendações para exame, intervenções e avaliação aplicáveis ​​à prática do fisioterapeuta. A avaliação da qualidade foi conduzida usando o instrumento Appraisal of Guidelines for Research and Evaluation (AGREE) II, a aplicabilidade das recomendações à prática do fisioterapeuta foi examinada usando o instrumento AGREE Recommendation Excellence e a convergência das recomendações entre as diretrizes foi avaliada."  
               },
               {
                 paragraph: 2,
-                title: "Results",
-                content: "Four clinical practice guidelines were included. One guideline evaluated as higher quality provided the most clinically applicable set of recommendations for examination, interventions, and evaluation processes to assess the effectiveness of interventions. Guideline-recommended interventions were consistent for exercise therapy, foot orthoses, patellar taping, patient education, and combined interventions and did not recommend the use of electrotherapeutic modalities. Two guidelines evaluated as higher quality did not recommend using manual therapy (in isolation), dry needling, and patellar bracing."  
+                title: "Resultados",
+                content: "Quatro diretrizes de prática clínica foram incluídas. Uma diretriz avaliada como de maior qualidade forneceu o conjunto de recomendações clinicamente mais aplicáveis ​​para exames, intervenções e processos de avaliação para avaliar a eficácia das intervenções. As intervenções recomendadas pela diretriz foram consistentes para terapia de exercícios, órteses de pé, bandagem patelar, educação do paciente e intervenções combinadas e não recomendaram o uso de modalidades eletroterapêuticas. Duas diretrizes avaliadas como de maior qualidade não recomendaram o uso de terapia manual (isoladamente), agulhamento seco e suporte patelar."  
               },
               {
                 paragraph: 3,
-                title: "Conclusion",
-                content: "Recommendations from higher-quality clinical practice guidelines may conflict with routine physical therapist management of patellofemoral pain. This review provides guidance for clinicians to deliver high-value physical therapist management of patellofemoral pain."
+                title: "Conclusão",
+                content: "Recomendações de diretrizes de prática clínica de alta qualidade podem entrar em conflito com o tratamento rotineiro de fisioterapeutas para dor patelofemoral. Esta revisão fornece orientação para clínicos para fornecer tratamento de fisioterapeutas de alto valor para dor patelofemoral."
               },
               {
                 paragraph: 4,
-                title: "Impact",
-                content: "This review addresses an important gap between evidence and practice in the physical therapist management of patellofemoral pain."
+                title: "Impacto",
+                content: "Esta revisão aborda uma lacuna importante entre evidências e prática no tratamento fisioterapêutico da dor patelofemoral."
               },
               {
                 paragraph: 5,
-                title: "Lay Summary",
-                content: "If you have kneecap pain, this review offers guidance for your physical therapist to provide examination processes, treatments, and evaluation processes that are recommended by high-quality guidelines."
+                title: "Resumo leigo",
+                content: "Se você tem dor na patela, esta revisão oferece orientação para seu fisioterapeuta fornecer processos de exame, tratamentos e processos de avaliação recomendados por diretrizes de alta qualidade."
               }
             ]
           },
           {
             id: "MdjMUB",
-            title: "Clinical Practice Guidelines Linked to the International Classification of Functioning, Disability and Health From the Academy of Orthopaedic Physical Therapy of the American Physical Therapy Association",
+            title: "Diretrizes de Prática Clínica Vinculadas à Classificação Internacional de Funcionalidade, Incapacidade e Saúde da Academia de Fisioterapia Ortopédica da Associação Americana de Fisioterapia",
             timeOfRead: 4,
             dateOfPublication: "31/08/2019",
             link: "https://www.jospt.org/doi/10.2519/jospt.2019.0302",
             resume: [
               {
                 paragraph: 0,
-                title: "Abstract",
-                content: "Patellofemoral pain (PFP) is a common musculoskeletal-related condition that is characterized by insidious onset of poorly defined pain, localized to the anterior retropatellar and/or peripatellar region of the knee. The onset of symptoms can be slow or acutely develop with a worsening of pain accompanying lower-limb loading activities (eg, squatting, prolonged sitting, ascending/descending stairs, jumping, or running). Symptoms can restrict participation in physical activity, sports, and work, as well as recur and persist for years. This clinical practice guideline will allow physical therapists and other rehabilitation specialists to stay up to date with evolving PFP knowledge and practices, and help them to make evidence-based treatment decisions."  
+                title: "Resumo",
+                content: "Dor patelofemoral (DFP) é uma condição musculoesquelética comum que é caracterizada pelo início insidioso de dor mal definida, localizada na região retropatelar anterior e/ou peripatelar do joelho. O início dos sintomas pode ser lento ou desenvolver-se agudamente com uma piora da dor acompanhando atividades de carga dos membros inferiores (por exemplo, agachamento, sentar-se por muito tempo, subir/descer escadas, pular ou correr). Os sintomas podem restringir a participação em atividades físicas, esportes e trabalho, bem como recorrer e persistir por anos. Esta diretriz de prática clínica permitirá que fisioterapeutas e outros especialistas em reabilitação se mantenham atualizados com o conhecimento e as práticas em evolução da DFP e os ajude a tomar decisões de tratamento baseadas em evidências."  
               }
             ]
           },
@@ -437,9 +437,8 @@ const data: PartOfBody[] = [
       },
       {
         id: "5kcpbf",
-        name: "Fascite plantar",
-        
-        treatment: [
+        name: "Fascite plantar",  
+        articles: [
           {
             id: "o721rC",
             title: "Dor no Calcanhar – Fascite Plantar: Revisão 2023",
