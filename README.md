@@ -75,16 +75,6 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
     
     ```
     
-
-## Estrutura do Projeto
-
-- **src/**
-    - **components/**: Contém os componentes reutilizáveis da aplicação.
-    - **assets/**: Imagens e outros arquivos estáticos.
-    - **styles/**: Arquivos SCSS e Tailwind CSS.
-    - **pages/**: Páginas principais da aplicação.
-    - **App.tsx**: Componente principal da aplicação.
-
 ## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
