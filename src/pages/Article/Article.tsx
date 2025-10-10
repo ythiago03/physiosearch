@@ -1,12 +1,16 @@
-import './Article.scss'
-import { Separator } from "@/components/ui/separator"
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useLocation } from 'react-router-dom';
+
 import data from '../../services/fakeApi'
+
 import PartOfBody from '@/interfaces/PartOfBody';
 import Pathologie from '@/interfaces/Pathologie';
 import ArticleInterface from '@/interfaces/Article';
+
+import { Separator } from "@/components/ui/separator"
+
+import './Article.scss'
 
 const Article = () => {
   const location = useLocation();
@@ -47,14 +51,14 @@ const Article = () => {
 
   if(!article){
     return (
-     <h1>Nenhum artigo encontrado</h1>
+    <h1>Nenhum artigo encontrado</h1>
     )
   }
   
   return (
     <main className='article_container'>
       <div className='article_header'>
-        <h1>{article.title}</h1>
+        <h2>{article.title}</h2>
         <div className='article_tag'>
           <span className="material-symbols-outlined">calendar_month</span>
           <span>{article.dateOfPublication}</span>
@@ -73,21 +77,21 @@ const Article = () => {
 
       <Separator className='separator' />
 
-      <section className='article_wrapper'>
+      <article className='article_wrapper'>
         {
           article.resume.map(content => {
             return <div key={content.paragraph} className='article_content'>
-            <h2>
+            <h3>
               {content.title}
               <Separator/>
-            </h2>
+            </h3>
             <p>
               {content.content}
             </p>
           </div>
           })
         }
-      </section>
+      </article>
     </main>
   )
 }
