@@ -1,3 +1,9 @@
+import { useRef, useState } from 'react';
+import { TransformWrapper, TransformComponent, ReactZoomPanPinchRef } from "react-zoom-pan-pinch";
+import { Link } from 'react-router-dom';
+
+import data from "../../services/fakeApi.ts"
+
 import { Button } from "@/components/ui/button";
 import {
   Accordion,
@@ -6,14 +12,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Separator } from '@/components/ui/separator';
-import data from "../../services/fakeApi.ts"
-import { Link } from 'react-router-dom';
-import { TransformWrapper, TransformComponent, ReactZoomPanPinchRef } from "react-zoom-pan-pinch";
-import { useRef, useState } from 'react';
-import skeletonPng from '../../assets/skeleton.png';
 import { Skeleton as SkeletonShadCn } from "@/components/ui/skeleton"
-
-
 import {
   Drawer,
   DrawerContent,
@@ -22,7 +21,12 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer"
+
 import './Skeleton.scss';
+
+import skeletonPng from '../../assets/skeleton.png';
+
+
 
 const Skeleton = () => {
   const transformComponentRef = useRef<ReactZoomPanPinchRef | null>(null);
@@ -49,7 +53,7 @@ const Skeleton = () => {
     }
   }
 
-  const loadImage = (imageSrc: string) => {
+  const loadImage = async (imageSrc: string) => {
     return new Promise<void>((resolve, reject) => {
       const img = new Image();
       img.src = imageSrc;
@@ -60,7 +64,7 @@ const Skeleton = () => {
 
   const getImage = async (src: string): Promise<void> => {
     setIsImageLoading(true)
-    await Promise.resolve(loadImage(src))
+    await loadImage(src)
     setIsImageLoading(false)
   }
 
@@ -92,7 +96,7 @@ const Skeleton = () => {
                     <img className={partOfBody.areaName.toLowerCase()} src={'/assets/'+partOfBody.areaName.toLowerCase()+'.png'} alt={'Foto do '+partOfBody.areaName} />
                   </button>
                 </DrawerTrigger>
-                <DrawerContent>
+                <DrawerContent className='w-11/12 md:w-1/2 mx-auto'>
 
                   <DrawerHeader>
                     <DrawerTitle>{partOfBody.areaName}</DrawerTitle>
@@ -118,8 +122,9 @@ const Skeleton = () => {
                             <ul>
                               {pathology.articles?.map(article => {
                                 return  <li key={article.id}>
-                                <Link to={`/article?partOfBody=${partOfBody.id}&pathologieId=${pathology.id}&articleId=${article.id}`}>
-                                  <h4>{article.title}<span className="material-symbols-outlined">north_east</span></h4>
+                                <Link className='flex justify-between' to={`/article?partOfBody=${partOfBody.id}&pathologieId=${pathology.id}&articleId=${article.id}`}>
+                                  <h4 className='!line-clamp-1'>{article.title}</h4>
+                                  <span className="material-symbols-outlined">north_east</span>
                                 </Link>
                               </li>
                               })}
@@ -135,8 +140,9 @@ const Skeleton = () => {
                             <ul>
                               {pathology.treatment?.map(article => {
                                 return  <li key={article.id}>
-                                <Link to={`/article?partOfBody=${partOfBody.id}&pathologieId=${pathology.id}&articleId=${article.id}`}>
-                                  <h4>{article.title}<span className="material-symbols-outlined">north_east</span></h4>
+                                <Link className="flex justify-between" to={`/article?partOfBody=${partOfBody.id}&pathologieId=${pathology.id}&articleId=${article.id}`}>
+                                  <h4 className='!line-clamp-1'>{article.title}</h4>
+                                  <span className="material-symbols-outlined">north_east</span>
                                 </Link>
                               </li>
                               })}

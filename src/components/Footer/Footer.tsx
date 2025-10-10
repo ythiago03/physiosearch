@@ -13,7 +13,7 @@ const Footer = () => {
     </span>
 
     <span>
-        Built with <Link target='_blank' to={"https://react.dev/"}>React.js</Link>, <Link target='_blank' to={"https://tailwindcss.com/"}>Tailwindcss</Link> and <Link target='_blank' to={"https://ui.shadcn.com/"}>Shadcn</Link> by <Link target='_blank' to={"https://github.com/ythiago03"}>Thiago Henrique</Link>.
+        Built with <Link target='_blank' to={"https://react.dev/"}>React.js</Link> and <Link target='_blank' to={"https://ui.shadcn.com/"}>Shadcn</Link> by <Link target='_blank' to={"https://thiagof.com"}>Thiago Henrique</Link>.
     </span>
     </footer>
   )
